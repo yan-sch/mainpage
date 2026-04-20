@@ -30,7 +30,7 @@ function timeAgo(dateStr) {
 }
 
 function renderSkeleton(listEl) {
-  listEl.innerHTML = Array(5).fill(0).map(() =>
+  listEl.innerHTML = Array(4).fill(0).map(() =>
     `<li class="news-skeleton"><div class="skeleton-block"></div></li>`
   ).join('');
 }
@@ -66,7 +66,7 @@ async function fetchFeed(rssUrl) {
   const json = await res.json();
   if (json.status !== 'ok') throw new Error('Feed error');
   const source = json.feed?.title ?? new URL(rssUrl).hostname;
-  return (json.items ?? []).slice(0, 5).map(i => ({
+  return (json.items ?? []).slice(0, 4).map(i => ({
     title:   i.title ?? '',
     link:    i.link ?? '#',
     pubDate: i.pubDate ?? '',

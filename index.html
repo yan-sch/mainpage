@@ -16,6 +16,7 @@
       <span id="time-display"></span>
       <span id="date-display"></span>
     </div>
+    <div id="greeting">Hi Yannick</div>
     <div id="search-wrapper">
       <select id="search-engine-select" title="Suchmaschine wählen">
         <option value="google">Google</option>
@@ -28,12 +29,36 @@
 
   <main id="grid">
 
-    <section id="weather" class="card">
-      <div id="weather-content">
-        <div class="skeleton-block" style="height:60px;margin-bottom:8px"></div>
-        <div class="skeleton-block" style="height:16px;width:60%"></div>
-      </div>
-    </section>
+    <!-- Linke Spalte: Wetter + Pomodoro gestapelt -->
+    <div id="left-col">
+      <section id="weather" class="card">
+        <div id="weather-content">
+          <div class="skeleton-block" style="height:44px;margin-bottom:6px"></div>
+          <div class="skeleton-block" style="height:12px;width:60%"></div>
+        </div>
+      </section>
+
+      <section id="timer" class="card">
+        <div id="timer-top-row">
+          <span id="timer-phase-label">Arbeit</span>
+          <span id="timer-today">Heute: <span id="timer-count">0</span> 🍅</span>
+        </div>
+        <div id="timer-display">25:00</div>
+        <div id="timer-bottom-row">
+          <div id="timer-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div id="timer-buttons">
+            <button id="timer-start">▶</button>
+            <button id="timer-pause" disabled>⏸</button>
+            <button id="timer-reset">↺</button>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <section id="news-1" class="card news-widget">
       <header class="news-header">
@@ -64,48 +89,6 @@
       <button id="fav-edit-btn" title="Favoriten bearbeiten">⚙</button>
     </section>
 
-    <section id="timer" class="card">
-      <div id="timer-phase-label">Arbeit</div>
-      <div id="timer-display">25:00</div>
-      <div id="timer-dots">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-      <div id="timer-buttons">
-        <button id="timer-start">▶ Start</button>
-        <button id="timer-pause" disabled>⏸ Pause</button>
-        <button id="timer-reset">↺ Reset</button>
-      </div>
-      <div id="timer-today">Heute: <span id="timer-count">0</span> 🍅</div>
-    </section>
-
-    <section id="bookmarks-todos" class="card">
-      <div id="bookmarks-section">
-        <div class="widget-section-title">
-          <span>Leseliste</span>
-          <button class="btn-ghost" id="bookmarks-toggle-read">Alle anzeigen</button>
-        </div>
-        <div id="bookmark-input-row">
-          <input type="url" id="bookmark-url" placeholder="URL…" />
-          <button id="bookmark-add">+</button>
-        </div>
-        <ul id="bookmarks-list"></ul>
-      </div>
-      <hr class="divider" />
-      <div id="todos-section">
-        <div class="widget-section-title">
-          <span>To-dos</span>
-          <button class="btn-ghost" id="todos-clear-done">Erledigte löschen</button>
-        </div>
-        <div id="todo-input-row">
-          <input type="text" id="todo-input" placeholder="Aufgabe hinzufügen…" />
-        </div>
-        <ul id="todo-list"></ul>
-      </div>
-    </section>
-
     <section id="quiz" class="card">
       <div id="quiz-header">
         <div id="quiz-stats-row">
@@ -120,9 +103,12 @@
           <div id="quiz-filter-kat">
             <button class="filter-btn active" data-kat="Alle">Alle</button>
             <button class="filter-btn" data-kat="Webentwicklung">Web</button>
+            <button class="filter-btn" data-kat="Backend">Backend</button>
             <button class="filter-btn" data-kat="Code">Code</button>
+            <button class="filter-btn" data-kat="Coding Glossar">Glossar</button>
+            <button class="filter-btn" data-kat="Datenbanken">DB</button>
             <button class="filter-btn" data-kat="KI">KI</button>
-            <button class="filter-btn" data-kat="Tools">Tools</button>
+            <button class="filter-btn" data-kat="Softwareentwicklung">Software</button>
           </div>
           <div id="quiz-filter-lvl">
             <button class="filter-btn active" data-lvl="Alle">Alle</button>
@@ -140,6 +126,18 @@
       </div>
       <div id="quiz-stats-panel" class="hidden"></div>
       <canvas id="confetti-canvas"></canvas>
+    </section>
+
+    <section id="bookmarks" class="card">
+      <div class="widget-section-title">
+        <span>Leseliste</span>
+        <button class="btn-ghost" id="bookmarks-toggle-read">Alle anzeigen</button>
+      </div>
+      <div id="bookmark-input-row">
+        <input type="url" id="bookmark-url" placeholder="URL…" />
+        <button id="bookmark-add">+</button>
+      </div>
+      <ul id="bookmarks-list"></ul>
     </section>
 
   </main>

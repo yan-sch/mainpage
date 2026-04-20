@@ -370,9 +370,18 @@ export async function initQuiz() {
   try {
     const res = await fetch('./data/questions.json');
     allQuestions = await res.json();
-  } catch {
+  } catch (e) {
     qEl.textContent = 'Fehler beim Laden der Fragen.';
+    console.error('Quiz load error:', e);
     return;
+  }
+  // Validate saved filter against actual categories
+  const validCats = new Set(['Alle', ...allQuestions.map(q => q.kategorie)]);
+  if (!validCats.has(state.activeFilter.kategorie)) {
+    state.activeFilter.kategorie = 'Alle';
+    saveState(state);
+    document.querySelectorAll('[data-kat]').forEach(b =>
+      b.classList.toggle('active', b.dataset.kat === 'Alle'));
   }
   buildQueue();
   nextQuestion();

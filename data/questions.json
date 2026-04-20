@@ -1,4 +1,5 @@
-    {
+[
+  {
     "id": 1,
     "kategorie": "Webentwicklung",
     "level": 1,
@@ -2195,7 +2196,6 @@
     "korrekteAntwortIndex": 1,
     "erklaerung": "Dies ist die wichtigste Sicherheitsmaßnahme in der KI-Entwicklung. Du musst sicherstellen, dass die Nutzer-Eingaben niemals die hart codierten Regeln deines System-Prompts überschreiben können."
   },
-[
   {
     "id": 170,
     "kategorie": "Webentwicklung",
