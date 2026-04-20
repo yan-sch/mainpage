@@ -148,40 +148,40 @@ a:hover { color: var(--accent); }
   height: 172px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   overflow: hidden;
 }
 #weather-city {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
   font-weight: 500;
 }
 #weather-main {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 11px;
 }
-#weather-icon   { font-size: 1.9rem; line-height: 1; }
-#weather-temp   { font-size: 1.7rem; font-weight: 600; line-height: 1; }
-#weather-desc   { font-size: 0.72rem; color: var(--text-muted); margin-top: 1px; }
+#weather-icon   { font-size: 2.2rem; line-height: 1; }
+#weather-temp   { font-size: 1.95rem; font-weight: 600; line-height: 1; }
+#weather-desc   { font-size: 0.74rem; color: var(--text-muted); margin-top: 3px; }
 #weather-meta   {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   font-size: 0.7rem;
   color: var(--text-muted);
 }
 #weather-forecast {
   display: flex;
-  gap: 5px;
+  gap: 6px;
   flex: 1;
 }
 .forecast-day {
   flex: 1;
   background: var(--bg-hover);
-  border-radius: 5px;
-  padding: 4px 2px;
+  border-radius: 6px;
+  padding: 6px 4px;
   text-align: center;
-  font-size: 0.67rem;
+  font-size: 0.7rem;
 }
 .forecast-day .f-label { color: var(--text-muted); }
 .forecast-day .f-icon  { font-size: 0.95rem; margin: 1px 0; }
@@ -761,18 +761,18 @@ a:hover { color: var(--accent); }
 
 /* ── Quiz Next Button ───────────────────────────────────────── */
 #quiz-next-btn {
-  align-self: flex-start;
-  padding: 7px 16px;
+  padding: 9px 11px;
   background: var(--accent);
-  border: none;
+  border: 1px solid var(--accent);
   border-radius: 7px;
   color: white;
   font-size: 0.82rem;
   font-weight: 500;
+  text-align: center;
   transition: background 0.12s, transform 0.1s;
-  flex-shrink: 0;
+  width: 100%;
 }
-#quiz-next-btn:hover { background: var(--accent-dim); transform: translateX(2px); }
+#quiz-next-btn:hover { background: var(--accent-dim); border-color: var(--accent-dim); transform: translateX(2px); }
 
 /* ── Modal ──────────────────────────────────────────────────── */
 .modal {

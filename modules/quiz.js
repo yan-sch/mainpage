@@ -200,6 +200,9 @@ function showQuestion(q) {
     btn.addEventListener('click', () => onAnswer(q, i, btn));
     answersEl.appendChild(btn);
   });
+  // 4th grid slot: next button (hidden until answered)
+  nextBtn.classList.add('hidden');
+  answersEl.appendChild(nextBtn);
 }
 
 function onAnswer(q, chosenIdx, btn) {
