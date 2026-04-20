@@ -4,6 +4,7 @@ import { initNews }       from './modules/news.js';
 import { initFavorites }  from './modules/favorites.js';
 import { initTimer }      from './modules/timer.js';
 import { initBookmarks }  from './modules/bookmarks.js';
+import { initQuote }      from './modules/quote.js';
 import { initQuiz }       from './modules/quiz.js';
 
 // ── Clock & Date ───────────────────────────────────────────────
@@ -45,4 +46,5 @@ initNews();
 initFavorites();
 initTimer();
 initBookmarks();
+initQuote();
 initQuiz();

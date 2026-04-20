@@ -125,6 +125,7 @@ const xpBar      = document.getElementById('quiz-xp-bar');
 const qEl        = document.getElementById('quiz-question');
 const answersEl  = document.getElementById('quiz-answers');
 const explEl     = document.getElementById('quiz-explanation');
+const nextBtn    = document.getElementById('quiz-next-btn');
 const xpFloat    = document.getElementById('quiz-xp-float');
 const statsBtn   = document.getElementById('quiz-stats-btn');
 const statsPanel = document.getElementById('quiz-stats-panel');
@@ -188,6 +189,7 @@ function nextQuestion() {
 function showQuestion(q) {
   answerLocked = false;
   explEl.classList.add('hidden');
+  nextBtn.classList.add('hidden');
   xpFloat.classList.add('hidden');
   qEl.textContent = q.frage;
   answersEl.innerHTML = '';
@@ -250,7 +252,7 @@ function onAnswer(q, chosenIdx, btn) {
   updateHeader();
   saveState(state);
 
-  setTimeout(nextQuestion, 1500);
+  nextBtn.classList.remove('hidden');
 }
 
 function showXpFloat(text) {
@@ -354,6 +356,12 @@ function initFilters() {
     });
   });
 }
+
+// ── Next button ───────────────────────────────────────────────
+nextBtn.addEventListener('click', () => {
+  nextBtn.classList.add('hidden');
+  nextQuestion();
+});
 
 // ── Stats toggle ──────────────────────────────────────────────
 statsBtn.addEventListener('click', () => {
