@@ -1,0 +1,2992 @@
+    {
+    "id": 1,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Welche Sprache ist primär für die optische Gestaltung (Farben, Abstände, Layout) einer Webseite zuständig?",
+    "antworten": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "CSS (Cascading Style Sheets) trennt das Design vom Inhalt (HTML) und ist für das gesamte Styling zuständig."
+  },
+  {
+    "id": 2,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Welches HTML-Tag verwendest du, um einen klickbaren Link zu einer anderen Webseite zu erstellen?",
+    "antworten": [
+      "<link>",
+      "<a>",
+      "<href>"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Das <a>-Tag (Anchor) wird zusammen mit dem Attribut 'href' genutzt, um Hyperlinks zu erstellen."
+  },
+  {
+    "id": 3,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Was passiert, wenn du eine Webseite 'responsive' machst?",
+    "antworten": [
+      "Die Webseite lädt schneller, weil Bilder komprimiert werden.",
+      "Die Webseite antwortet automatisch auf Nutzer-E-Mails.",
+      "Das Layout passt sich automatisch an verschiedene Bildschirmgrößen (Handy, Tablet, Desktop) an."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Responsive Webdesign sorgt dafür, dass Web-Apps auf Smartphones genauso gut benutzbar sind wie auf großen Monitoren."
+  },
+  {
+    "id": 4,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Wo im HTML-Dokument bindest du externe CSS-Dateien normalerweise ein?",
+    "antworten": [
+      "Im <head>-Bereich.",
+      "Ganz am Ende des <body>-Bereichs.",
+      "Im <footer>-Bereich."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "CSS wird im <head> eingebunden, damit der Browser die Styling-Informationen laden kann, bevor er die Elemente auf dem Bildschirm zeichnet."
+  },
+  {
+    "id": 5,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Welche Sprache sorgt dafür, dass Webseiten interaktiv werden (z.B. Popups, dynamische Updates ohne Neuladen)?",
+    "antworten": [
+      "HTML",
+      "PHP",
+      "JavaScript"
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "JavaScript ist die Programmiersprache des Browsers und macht statische HTML-Seiten dynamisch und interaktiv."
+  },
+  {
+    "id": 6,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was ist eine 'Variable' in der Programmierung?",
+    "antworten": [
+      "Ein Platzhalter oder Container, in dem Daten (wie Zahlen oder Texte) im Arbeitsspeicher gespeichert werden.",
+      "Ein Fehler im Code, der unvorhersehbar auftritt.",
+      "Eine Funktion, die den Code schneller macht."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Variablen speichern Informationen, die du im Laufe deines Programms abrufen und verändern kannst."
+  },
+  {
+    "id": 7,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Wofür nutzt man eine 'if-else'-Anweisung?",
+    "antworten": [
+      "Um Code in einer Endlosschleife zu wiederholen.",
+      "Um Entscheidungen im Code zu treffen, abhängig davon, ob eine Bedingung wahr oder falsch ist.",
+      "Um eine Datei auf den Server hochzuladen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "If-else (Wenn-Dann) ist die grundlegendste Form der Kontrollstruktur für Logik in Applikationen."
+  },
+  {
+    "id": 8,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was macht eine 'Schleife' (Loop)?",
+    "antworten": [
+      "Sie versteckt Code vor dem Benutzer.",
+      "Sie führt einen bestimmten Code-Block mehrfach aus, solange eine Bedingung erfüllt ist.",
+      "Sie verbindet das Frontend mit dem Backend."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Schleifen (wie 'for' oder 'while') sparen Zeit, indem sie wiederkehrende Aufgaben automatisieren, z.B. das Anzeigen aller Fragen in unserem Quiz."
+  },
+  {
+    "id": 9,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was versteht man unter 'Syntax'?",
+    "antworten": [
+      "Die Grammatik und die Rechtschreibregeln einer bestimmten Programmiersprache.",
+      "Die Geschwindigkeit, mit der Code ausgeführt wird.",
+      "Eine Gebühr für das Veröffentlichen einer App."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn du einen Syntax-Fehler hast, hast du dich sozusagen 'vertippt' (z.B. ein Semikolon vergessen) und der Computer versteht den Code nicht."
+  },
+  {
+    "id": 10,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Warum sollte man seinen Code mit Kommentaren versehen?",
+    "antworten": [
+      "Damit der Code schneller kompiliert wird.",
+      "Um Erklärungen für sich selbst oder andere Entwickler zu hinterlassen, ohne dass der Computer diese ausführt.",
+      "Damit Suchmaschinen die App besser finden."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Kommentare werden vom Computer komplett ignoriert und dienen rein der Lesbarkeit für Menschen."
+  },
+  {
+    "id": 11,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist Git?",
+    "antworten": [
+      "Eine Plattform zum Hosten von Webseiten.",
+      "Ein Versionskontrollsystem, das Änderungen am Code speichert und Teamarbeit ermöglicht.",
+      "Ein Programm zum Erstellen von Grafiken."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Git speichert den Verlauf deines Codes. Wenn du etwas kaputt machst, kannst du dank Git einfach zu einer alten, funktionierenden Version zurückkehren."
+  },
+  {
+    "id": 12,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was bedeutet 'Deployment' in der Praxis?",
+    "antworten": [
+      "Das Schreiben von ersten Code-Zeilen.",
+      "Das Suchen von Fehlern im Programm.",
+      "Das Veröffentlichen einer Web-App auf einem Live-Server, sodass echte Nutzer darauf zugreifen können."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Deployment (Bereitstellung) ist der Schritt von deinem lokalen Laptop hinaus ins Internet (z.B. über Plattformen wie Vercel oder Netlify)."
+  },
+  {
+    "id": 13,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist eine IDE (Integrated Development Environment)?",
+    "antworten": [
+      "Eine spezielle Hardware für Entwickler.",
+      "Ein umfangreicher Code-Editor mit Hilfswerkzeugen wie Debugger und Autovervollständigung (z.B. VS Code).",
+      "Eine Richtlinie für sicheres Programmieren."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Eine IDE ist der 'Schreibtisch' eines Entwicklers. Sie nimmt dir viel Arbeit ab, markiert Fehler farbig und schlägt Code vor."
+  },
+  {
+    "id": 14,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist das Hauptziel von 'Agiler Softwareentwicklung'?",
+    "antworten": [
+      "Software in kleinen, iterativen Schritten zu entwickeln und flexibel auf Änderungen reagieren zu können.",
+      "Den Code möglichst unleserlich zu schreiben, damit er nicht kopiert wird.",
+      "Ein Projekt komplett durchzuplanen, bevor die erste Zeile Code geschrieben wird."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Agil (wie z.B. Scrum) bedeutet, schnell funktionierende Zwischenversionen zu veröffentlichen und ständig Feedback von Nutzern einzuarbeiten."
+  },
+  {
+    "id": 15,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Wofür nutzt man GitHub oder GitLab primär?",
+    "antworten": [
+      "Um Code im Internet zu speichern, zu teilen und im Team daran zu arbeiten.",
+      "Um Webseiten-Designvorlagen herunterzuladen.",
+      "Als Datenbank für Nutzerpasswörter."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "GitHub ist wie ein Cloud-Speicher (ähnlich Google Drive) speziell für Programmcode und nutzt Git für die Versionierung."
+  },
+  {
+    "id": 16,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist die Hauptaufgabe des Backends bei einer Web-App?",
+    "antworten": [
+      "Es kümmert sich um Animationen im Browser.",
+      "Es verarbeitet Datenstrukturen, kommuniziert mit der Datenbank und übernimmt die Logik im Hintergrund.",
+      "Es wandelt Code in Bilder um."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Das Backend ist der 'Motor' der App. Der Nutzer sieht es nicht, aber es sorgt dafür, dass Logins funktionieren und Daten gespeichert werden."
+  },
+  {
+    "id": 17,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Welcher HTTP-Statuscode signalisiert, dass eine Seite oder Ressource nicht gefunden wurde?",
+    "antworten": [
+      "200",
+      "500",
+      "404"
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "404 Not Found ist der Standardfehler, wenn der Server die angeforderte URL nicht kennt."
+  },
+  {
+    "id": 18,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was macht ein 'API' (Application Programming Interface)?",
+    "antworten": [
+      "Es schützt den Computer vor Viren.",
+      "Es ist eine Schnittstelle, über die verschiedene Software-Systeme (z.B. Frontend und Backend) Daten austauschen können.",
+      "Es macht den Code für Menschen lesbar."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Eine API ist wie ein Kellner im Restaurant: Das Frontend (Gast) gibt eine Bestellung auf, die API bringt sie zum Backend (Küche) und liefert das fertige Essen (Daten) zurück."
+  },
+  {
+    "id": 19,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Wenn ein Nutzer ein Formular ausfüllt und Daten sicher an den Server senden will, welche HTTP-Methode wird genutzt?",
+    "antworten": [
+      "GET",
+      "POST",
+      "DELETE"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "POST sendet Daten (wie Passwörter oder Blog-Einträge) verdeckt im Body der Anfrage an den Server, während GET Daten nur abruft und in der URL sichtbar macht."
+  },
+  {
+    "id": 20,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Welche Technologie wird oft als Laufzeitumgebung genutzt, um JavaScript auf dem Backend/Server auszuführen?",
+    "antworten": [
+      "React",
+      "Node.js",
+      "Bootstrap"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Node.js erlaubt es Entwicklern, die Sprache JavaScript, die ursprünglich nur für den Browser (Frontend) gedacht war, auch für Serveranwendungen zu nutzen."
+  },
+  {
+    "id": 21,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was ist eine 'Tabelle' in einer relationalen Datenbank (wie MySQL)?",
+    "antworten": [
+      "Eine Sammlung von zusammengehörigen Daten, strukturiert in Zeilen und Spalten (ähnlich wie in Excel).",
+      "Ein spezielles Passwort.",
+      "Ein Ordner auf dem Webserver."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "In relationalen Datenbanken werden Datensätze (z.B. User, Produkte) übersichtlich in Tabellen organisiert."
+  },
+  {
+    "id": 22,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Wofür steht 'SQL'?",
+    "antworten": [
+      "Structured Query Language",
+      "System Quality Logic",
+      "Standard Query Level"
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "SQL ist die Standardsprache, um Daten in relationalen Datenbanken abzufragen, einzufügen oder zu löschen."
+  },
+  {
+    "id": 23,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was ist ein 'Primary Key' (Primärschlüssel)?",
+    "antworten": [
+      "Das Hauptpasswort für den Server.",
+      "Ein eindeutiger Identifikator für jeden Datensatz in einer Tabelle (z.B. eine User-ID).",
+      "Der erste Eintrag in einer Tabelle."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Der Primary Key garantiert, dass es keine Verwechslungen gibt, selbst wenn zwei Nutzer denselben Namen haben. Jeder hat seine eigene, einzigartige ID."
+  },
+  {
+    "id": 24,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was passiert bei einer 'Query' in einer Datenbank?",
+    "antworten": [
+      "Die Datenbank wird gelöscht.",
+      "Es wird eine Anfrage an die Datenbank gestellt, um bestimmte Informationen zu filtern und zu lesen.",
+      "Die Datenbank wird verschlüsselt."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Eine Query (Abfrage) formulierst du meist in SQL, z.B. 'Zeige mir alle Fragen für Level 1'."
+  },
+  {
+    "id": 25,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was bedeutet CRUD im Kontext von Datenbanken?",
+    "antworten": [
+      "Create, Read, Update, Delete",
+      "Copy, Run, Upload, Download",
+      "Code, Review, Understand, Deploy"
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "CRUD beschreibt die vier grundlegenden Operationen, die eine Web-App mit einer Datenbank durchführen können muss (Erstellen, Lesen, Aktualisieren, Löschen)."
+  },
+  {
+    "id": 26,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist mit 'Open Source' gemeint?",
+    "antworten": [
+      "Software, deren Quellcode öffentlich zugänglich ist und oft kostenlos verändert und genutzt werden darf.",
+      "Ein System, das immer online ist.",
+      "Ein Server, der keine Passwörter benötigt."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Open Source Projekte leben von der Community. Viele der wichtigsten Web-Technologien (wie Linux, Python oder React) sind Open Source."
+  },
+  {
+    "id": 27,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist ein 'Framework'?",
+    "antworten": [
+      "Ein Begriff für den Rahmen eines Monitors.",
+      "Ein Grundgerüst an vorgefertigtem Code, das Entwicklern hilft, Apps schneller und strukturierter zu bauen (z.B. Angular, Laravel).",
+      "Ein Algorithmus zum Komprimieren von Bildern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein Framework gibt dir Architektur und Tools vor, damit du das Rad (z.B. Logins, Datenbankverbindungen) nicht für jede App neu erfinden musst."
+  },
+  {
+    "id": 28,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was beschreibt der Begriff 'Frontend'?",
+    "antworten": [
+      "Den Server, auf dem die Datenbank läuft.",
+      "Die erste Zeile eines Codes.",
+      "Die Benutzeroberfläche einer App oder Webseite, die der Nutzer im Browser sieht und mit der er interagiert."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Alles, was du beim Surfen auf einer Webseite siehst (Buttons, Texte, Bilder), gehört zum Frontend."
+  },
+  {
+    "id": 29,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist 'Debugging'?",
+    "antworten": [
+      "Das Suchen und Beheben von Fehlern (Bugs) im Code.",
+      "Das Hinzufügen von Insekten-Icons in eine Web-App.",
+      "Das Hochladen der App in den App Store."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Debugging ist eine der Haupttätigkeiten von Entwicklern, bei der man systematisch analysiert, warum der Code nicht das tut, was er soll."
+  },
+  {
+    "id": 30,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was versteht man unter 'Localhost'?",
+    "antworten": [
+      "Einen Hosting-Anbieter im Internet.",
+      "Den eigenen Computer, wenn er während der Entwicklung als temporärer Server fungiert.",
+      "Einen speziellen Router."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du eine Web-App auf deinem PC programmierst und testest, läuft sie auf 'localhost' und ist für niemanden sonst im Internet erreichbar."
+  },
+  {
+    "id": 31,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was ist ein 'Prompt' in der Arbeit mit KI?",
+    "antworten": [
+      "Ein Bezahlmodell für KI-Dienste.",
+      "Die textliche Eingabe oder Anweisung, die ein Nutzer der KI gibt, um eine Antwort zu erzeugen.",
+      "Eine Fehlermeldung der KI."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein Prompt (die Eingabeaufforderung) ist entscheidend: Je klarer und präziser der Prompt, desto besser der generierte Code der KI."
+  },
+  {
+    "id": 32,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Wofür steht LLM im KI-Kontext?",
+    "antworten": [
+      "Low Level Memory",
+      "Large Language Model",
+      "Local Learning Machine"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Große Sprachmodelle (wie GPT-4 oder Gemini) werden auf riesigen Textmengen trainiert, um menschliche Sprache und Code zu verstehen und zu generieren."
+  },
+  {
+    "id": 33,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was bedeutet es, wenn eine KI 'halluziniert'?",
+    "antworten": [
+      "Die Server der KI sind überlastet.",
+      "Die KI generiert bunte Bilder.",
+      "Die KI erfindet selbstbewusst falsche Fakten oder Code, der gar nicht existiert oder funktioniert."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Halluzinationen sind ein bekanntes Problem. Deshalb musst du als Entwickler von der KI generierten Code immer selbst testen und verstehen."
+  },
+  {
+    "id": 34,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Wie kann dich KI als Coding-Anfänger konkret beim Lernen unterstützen?",
+    "antworten": [
+      "Sie nimmt dir das Programmieren komplett ab, sodass du den Code nicht verstehen musst.",
+      "Sie kann komplexe Fehlermeldungen erklären und dir maßgeschneiderte Code-Beispiele (wie dieses Quiz) erstellen.",
+      "Sie hackt fremde Webseiten, um den Code zu kopieren."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "KI ist wie ein persönlicher Tutor. Du solltest sie nutzen, um Konzepte zu verstehen, nicht um blind Code zu kopieren."
+  },
+  {
+    "id": 35,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was ist GitHub Copilot?",
+    "antworten": [
+      "Ein KI-Assistent, der dir direkt in deiner IDE beim Programmieren Codezeilen vorschlägt.",
+      "Ein Roboter, der deinen Laptop repariert.",
+      "Eine Flugsimulation."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Tools wie Copilot sind in der Praxis extrem beliebt, weil sie Routine-Code automatisch ergänzen und so die Entwicklungszeit verkürzen."
+  },
+  {
+    "id": 36,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Was ist der Hauptzweck des <title>-Tags in HTML?",
+    "antworten": [
+      "Es formatiert den Text auf der Webseite größer.",
+      "Es definiert den Namen der Webseite, der oben im Browser-Tab angezeigt wird.",
+      "Es erstellt eine Tabelle für Daten."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Der Titel im <title>-Tag ist nicht auf der Seite selbst sichtbar, sondern im Reiter des Browsers und extrem wichtig für Google (SEO)."
+  },
+  {
+    "id": 37,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Wie kommentiert man Code in HTML aus, sodass der Browser ihn ignoriert?",
+    "antworten": [
+      "// Kommentar",
+      "",
+      "/* Kommentar */"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Mit kannst du dir in HTML Notizen machen oder Code-Teile vorübergehend deaktivieren, ohne sie zu löschen."
+  },
+  {
+    "id": 38,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Was ist ein 'CSS-Selektor'?",
+    "antworten": [
+      "Ein Teil des CSS-Codes, der bestimmt, auf welches HTML-Element das nachfolgende Design angewendet werden soll.",
+      "Ein Tool im Browser, um Farben auszuwählen.",
+      "Eine Fehlermeldung, wenn das Design kaputt ist."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Mit einem Selektor sagst du dem Browser zum Beispiel: 'Finde alle <h1>-Überschriften und mache sie blau'."
+  },
+  {
+    "id": 39,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Mit welchem Attribut gibst du bei einem <img>-Tag den Pfad zur Bilddatei an?",
+    "antworten": [
+      "link=",
+      "src=",
+      "href="
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "'src' steht für 'source' (Quelle) und verweist auf den Ort, wo das Bild auf dem Server liegt."
+  },
+  {
+    "id": 40,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Wofür steht das 'M' im Begriff 'DOM' (Document Object Model)?",
+    "antworten": [
+      "Model",
+      "Markup",
+      "Machine"
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Das DOM ist ein Modell der Webseite, das der Browser erstellt. JavaScript nutzt das DOM, um HTML-Elemente nachträglich zu verändern."
+  },
+  {
+    "id": 41,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was ist ein 'Array' in der Programmierung?",
+    "antworten": [
+      "Eine komplexe mathematische Formel.",
+      "Ein Grafikfehler.",
+      "Eine Datenstruktur, die eine Liste von Werten (z.B. mehrere Namen) in einer einzigen Variablen speichert."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Ein Array ist wie ein Aktenordner. In unserem Quiz sind die Antwortmöglichkeiten in einem Array gespeichert, weil es mehrere zusammengehörige Texte sind."
+  },
+  {
+    "id": 42,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was beschreibt der Datentyp 'Boolean'?",
+    "antworten": [
+      "Eine sehr große Zahl.",
+      "Einen Wahrheitswert, der nur zwei Zustände haben kann (Wahr oder Falsch / True oder False).",
+      "Text, der Sonderzeichen enthält."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Booleans sind essenziell für Logik. Zum Beispiel: 'Ist der Nutzer eingeloggt? -> True'."
+  },
+  {
+    "id": 43,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was ist eine 'Funktion'?",
+    "antworten": [
+      "Ein wiederverwendbarer Code-Block, der eine bestimmte Aufgabe ausführt, wenn er aufgerufen wird.",
+      "Das Design einer Schaltfläche.",
+      "Die Verbindung zum Internet."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Statt den gleichen Code zehnmal zu schreiben, verpackst du ihn in eine Funktion und rufst diese einfach zehnmal auf. Das spart Zeit und vermeidet Fehler."
+  },
+  {
+    "id": 44,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was bedeutet der Begriff 'Hardcoding'?",
+    "antworten": [
+      "Daten direkt starr in den Quellcode zu schreiben, statt sie flexibel (z.B. aus einer Datenbank) abzurufen.",
+      "Das Programmieren auf sehr alter Hardware.",
+      "Besonders sicherer Code, der nicht gehackt werden kann."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Hardcoding ist oft schlecht für Web-Apps. Wenn du Preise 'hardcodest', musst du für jede Preisänderung den Code ändern und neu hochladen."
+  },
+  {
+    "id": 45,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Welches Satzzeichen wird in Sprachen wie JavaScript, PHP oder Java verwendet, um eine Anweisung (Zeile) zu beenden?",
+    "antworten": [
+      "Ein Punkt (.)",
+      "Ein Semikolon (;)",
+      "Ein Doppelpunkt (:)"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Das Semikolon sagt dem Computer: 'Hier ist der aktuelle Befehl zu Ende, lies jetzt den nächsten'."
+  },
+  {
+    "id": 46,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was machst du in Git, wenn du einen 'Commit' durchführst?",
+    "antworten": [
+      "Du löschst das gesamte Projekt.",
+      "Du speicherst einen Schnappschuss deiner aktuellen Code-Änderungen dauerhaft in der Versionshistorie ab.",
+      "Du lädst den Code automatisch auf den Live-Server."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein Commit ist wie ein Speicherpunkt in einem Videospiel. Wenn später etwas schiefgeht, kannst du zu diesem Punkt zurückkehren."
+  },
+  {
+    "id": 47,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was versteht man unter einem 'Repository' (Repo)?",
+    "antworten": [
+      "Ein Verzeichnis oder Speicherort, in dem alle Dateien eines Projekts und deren Versionshistorie liegen.",
+      "Ein spezieller Webbrowser für Entwickler.",
+      "Die Rechnung für das Server-Hosting."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Dein Projektordner auf deinem PC wird zu einem lokalen 'Repo', wenn du Git darin aktivierst. Auf GitHub liegt dann dein Online-Repo."
+  },
+  {
+    "id": 48,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was bedeutet 'Refactoring' in der Softwareentwicklung?",
+    "antworten": [
+      "Den Code sauberer und strukturierter neu zu schreiben, ohne dass sich das äußerliche Verhalten der App ändert.",
+      "Die App für ein anderes Betriebssystem zu übersetzen.",
+      "Das Hinzufügen von komplett neuen Features."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Refactoring ist wie das Aufräumen des Schreibtischs: Du fügst keine neuen Werkzeuge hinzu, aber danach kannst du viel effizienter arbeiten."
+  },
+  {
+    "id": 49,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Wofür schreibt man 'Unit Tests'?",
+    "antworten": [
+      "Um das Design der App auf Handys zu testen.",
+      "Um einzelne, isolierte Bausteine (Units) des Codes automatisiert auf ihre fehlerfreie Logik zu prüfen.",
+      "Um zu prüfen, wie viele User gleichzeitig auf der Seite sein können."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Unit Tests sichern dich ab: Bevor du deine App updatest, laufen Skripte durch, die checken, ob deine Kernfunktionen (z.B. Login) noch klappen."
+  },
+  {
+    "id": 50,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist 'Scrum'?",
+    "antworten": [
+      "Ein Tool zum Verkleinern von Bildern.",
+      "Eine Programmiersprache für Datenbanken.",
+      "Ein beliebtes Rahmenwerk für agile Teamarbeit, das Projekte in kurze 'Sprints' (z.B. 2 Wochen) unterteilt."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "In Scrum plant man nicht jahrelang im Voraus, sondern setzt sich realistische Ziele für wenige Wochen und passt das Produkt stetig an."
+  },
+  {
+    "id": 51,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Wofür steht die Abkürzung 'URL'?",
+    "antworten": [
+      "Uniform Resource Locator",
+      "Universal Routing Link",
+      "User Registry Location"
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Eine URL ist schlicht die eindeutige Adresse im Internet, unter der ein Server, eine Webseite oder ein Bild gefunden werden kann."
+  },
+  {
+    "id": 52,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist der Zweck einer 'Session' im Web?",
+    "antworten": [
+      "Sie speichert Daten (wie den Login-Status) auf dem Server, um einen Nutzer über mehrere Klicks hinweg wiederzuerkennen.",
+      "Es ist die Zeit, die ein Server zum Starten braucht.",
+      "Sie verhindert, dass zu viele Nutzer gleichzeitig auf die Webseite zugreifen."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "HTTP ist an sich 'zustandslos' (vergesslich). Ohne Sessions wüsste der Server nach dem Login beim nächsten Klick nicht mehr, wer du bist."
+  },
+  {
+    "id": 53,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Welcher HTTP-Statuscode wird vom Server gesendet, wenn eine Anfrage erfolgreich war?",
+    "antworten": [
+      "404",
+      "200",
+      "500"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "'200 OK' ist der Code, den dein Browser bei fast jedem erfolgreichen Webseitenaufruf unsichtbar im Hintergrund empfängt."
+  },
+  {
+    "id": 54,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist JSON (JavaScript Object Notation)?",
+    "antworten": [
+      "Ein Grafikformat für hochauflösende Bilder.",
+      "Ein leichtgewichtiges Datenformat, das primär genutzt wird, um strukturiert Daten zwischen Server und Web-App auszutauschen.",
+      "Ein Virenscanner für Webserver."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "JSON ist der absolute Standard in modernen Web-Apps. Das Quiz-Format, das wir hier nutzen, ist exakt das Format, das APIs zurückliefern."
+  },
+  {
+    "id": 55,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was bezeichnet man bei einer API als 'Endpoint' (Endpunkt)?",
+    "antworten": [
+      "Die letzte Zeile im Server-Code.",
+      "Das Gerät des Nutzers (Handy/Laptop).",
+      "Eine spezifische URL der API, über die eine ganz bestimmte Funktion (z.B. /users/login) aufgerufen wird."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Eine API hat viele Endpunkte. Einer liefert z.B. Blogposts, ein anderer speichert Kommentare. Du sprichst sie über verschiedene URLs an."
+  },
+  {
+    "id": 56,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was macht ein 'Foreign Key' (Fremdschlüssel) in einer relationalen Datenbank?",
+    "antworten": [
+      "Er verknüpft zwei Tabellen miteinander, indem er auf den Primärschlüssel einer anderen Tabelle verweist.",
+      "Er verschlüsselt die Datenbank gegen Hacker aus dem Ausland.",
+      "Er sortiert die Einträge alphabetisch."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn Tabelle 'Bestellungen' die 'Kunden_ID' (Fremdschlüssel) enthält, weiß die Datenbank, welche Bestellung zu welchem Kunden in der Tabelle 'Kunden' gehört."
+  },
+  {
+    "id": 57,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was bedeutet 'NoSQL' bei Datenbanken (z.B. MongoDB)?",
+    "antworten": [
+      "Eine Datenbank, die komplett ohne Speicherplatz auskommt.",
+      "Ein Datenbanktyp, der auf flexible Dokumente (oft ähnlich zu JSON) statt auf starre, klassische Tabellen setzt.",
+      "Eine Datenbank, in der man nichts suchen kann."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "NoSQL ist super, wenn sich die Struktur deiner Daten oft ändert, weil du dich nicht strikt an Spalten und Zeilen halten musst."
+  },
+  {
+    "id": 58,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Mit welchem SQL-Befehl liest man Daten aus einer Tabelle aus?",
+    "antworten": [
+      "GET",
+      "SELECT",
+      "READ"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "'SELECT * FROM User' ist der klassische Befehl, um alle Informationen aus der Tabelle 'User' zu laden."
+  },
+  {
+    "id": 59,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Warum definiert man in Tabellen für jede Spalte einen spezifischen 'Datentyp' (z.B. Integer, Varchar)?",
+    "antworten": [
+      "Um Speicherplatz zu optimieren und sicherzustellen, dass (z.B. in ein Alter-Feld) nur Zahlen und kein Text eingetragen werden.",
+      "Damit der Code bunter wird.",
+      "Weil der Browser sonst die Webseite nicht lädt."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Datentypen sind ein Schutzmechanismus der Datenbank. Sie verhindern unsinnige Einträge und fehlerhafte Berechnungen."
+  },
+  {
+    "id": 60,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Welchen Zweck erfüllen 'Indizes' (Indexes) in einer Datenbank?",
+    "antworten": [
+      "Sie beschleunigen Suchanfragen massiv, ähnlich wie das Inhaltsverzeichnis in einem Buch.",
+      "Sie löschen alte Daten automatisch.",
+      "Sie generieren neue Passwörter für Nutzer."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Ohne Index muss die Datenbank bei einer Suche (z.B. nach einer E-Mail-Adresse) jede Zeile einzeln lesen. Ein Index macht das Auffinden blitzschnell."
+  },
+  {
+    "id": 61,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist eine 'Library' (Bibliothek) beim Programmieren?",
+    "antworten": [
+      "Eine Sammlung von fertigen Code-Funktionen, die Entwickler in ihr Projekt einbinden können, um das Rad nicht neu zu erfinden.",
+      "Ein Ort, an dem man Programmierbücher ausleiht.",
+      "Ein Tool zum Löschen von Code."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn du in deiner App Diagramme anzeigen willst, schreibst du den Code dafür nicht selbst, sondern nutzt eine fertige Chart-Library."
+  },
+  {
+    "id": 62,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was bezeichnet man als 'Full-Stack Developer'?",
+    "antworten": [
+      "Einen Entwickler, der nur Datenbanken baut.",
+      "Einen Entwickler, der sowohl die Frontend- als auch die Backend-Entwicklung beherrscht.",
+      "Einen Entwickler, der besonders schnell tippen kann."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein Full-Stack Entwickler versteht das große Ganze und kann theoretisch eine komplette Web-Applikation vom Design bis zum Server alleine hochziehen."
+  },
+  {
+    "id": 63,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was macht ein 'Compiler'?",
+    "antworten": [
+      "Er übersetzt den vom Menschen geschriebenen Programmcode in maschinenlesbaren Code (Nullen und Einsen).",
+      "Er komprimiert Bilder auf einer Webseite.",
+      "Er sucht nach Viren im Code."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Der Computer versteht kein C++ oder Java. Der Compiler nimmt den Text und wandelt ihn in ein Programm um, das der Prozessor ausführen kann."
+  },
+  {
+    "id": 64,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was bedeutet der Begriff 'Bugfix'?",
+    "antworten": [
+      "Das Reparieren oder Beheben eines Softwarefehlers im Quellcode.",
+      "Eine neue Funktion in einer App.",
+      "Das Bezahlen für eine Software-Lizenz."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Nachdem User einen 'Bug' (Fehler) gemeldet haben, programmieren die Entwickler einen 'Fix' und veröffentlichen diesen über ein Update."
+  },
+  {
+    "id": 65,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was versteht man unter einem 'Syntax Error'?",
+    "antworten": [
+      "Der Server ist offline.",
+      "Ein Fehler in der 'Grammatik' des Codes, weil z.B. eine Klammer vergessen oder ein Befehl falsch geschrieben wurde.",
+      "Der Nutzer hat ein falsches Passwort eingegeben."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Bei einem Syntaxfehler bricht das Programm meist sofort ab, weil der Computer den falsch geschriebenen Befehl nicht entschlüsseln kann."
+  },
+  {
+    "id": 66,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was versteht man unter 'Machine Learning' (Maschinelles Lernen)?",
+    "antworten": [
+      "Ein Prozess, bei dem ein Algorithmus selbstständig Muster in Daten erkennt und daraus lernt, statt explizit programmiert zu werden.",
+      "Ein Computer, der automatisch neue Bauteile bestellt.",
+      "Eine Tastatur, die von selbst tippt."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Statt dem Computer per Wenn-Dann-Logik zu sagen, wie eine Katze aussieht, zeigt man ihm Tausende Bilder, bis er das Muster 'Katze' selbst erkennt."
+  },
+  {
+    "id": 67,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was sind 'Trainingsdaten' im KI-Kontext?",
+    "antworten": [
+      "Die Gebühren für einen KI-Kurs.",
+      "Die riesigen Mengen an Texten, Bildern oder Code, mit denen das KI-Modell gefüttert wird, um Fähigkeiten zu entwickeln.",
+      "Die Speichergröße der Festplatte."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Eine KI ist nur so gut wie ihre Trainingsdaten. Wenn sie nur deutschen Text liest, kann sie kein Französisch sprechen."
+  },
+  {
+    "id": 68,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was sind 'Tokens' bei großen Sprachmodellen (LLMs)?",
+    "antworten": [
+      "Kleine Wortteile oder Silben, in die die KI den Text zerlegt, um ihn zu verarbeiten und zu berechnen.",
+      "Digitale Münzen, um Entwickler zu bezahlen.",
+      "Die Server, auf denen die KI läuft."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "KIs 'denken' nicht in ganzen Wörtern, sondern in Tokens. Das Wort 'Entwicklung' könnte z.B. in die Tokens 'Ent', 'wick' und 'lung' zerlegt werden."
+  },
+  {
+    "id": 69,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was versteht man unter dem 'Fine-Tuning' eines KI-Modells?",
+    "antworten": [
+      "Das Löschen der KI von der Festplatte.",
+      "Das Trainieren eines bereits fertigen Modells mit speziellen Daten, damit es Experte für eine bestimmte Nische (z.B. Jura oder Medizin) wird.",
+      "Das Anpassen der Benutzeroberfläche der App."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Fine-Tuning nimmt ein Modell, das alles ein bisschen kann, und trimmt es auf eine ganz konkrete Aufgabe, um bessere Ergebnisse zu liefern."
+  },
+  {
+    "id": 70,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was ist ein 'Neuronales Netz' (Neural Network)?",
+    "antworten": [
+      "Das Kabel, das den Server mit dem Internet verbindet.",
+      "Eine Architektur in der KI, die grob der Funktionsweise von vernetzten Nervenzellen im menschlichen Gehirn nachempfunden ist.",
+      "Ein Netzwerk aus verschiedenen Webentwicklern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Neuronale Netze bestehen aus vielen Schichten ('Layern'), in denen Informationen gefiltert, gewichtet und weitergegeben werden, um komplexe Entscheidungen zu treffen."
+  },
+  {
+    "id": 71,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Wofür wird das <div>-Tag in HTML hauptsächlich verwendet?",
+    "antworten": [
+      "Um Text fett zu markieren.",
+      "Als generischer Container, um andere HTML-Elemente zu gruppieren und mit CSS zu stylen.",
+      "Um ein Video auf der Webseite abzuspielen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein <div> (Division) hat von sich aus keine visuelle Bedeutung, ist aber der wichtigste Baustein, um das Layout (z.B. Boxen, Raster) einer Seite zu strukturieren."
+  },
+  {
+    "id": 72,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Was ist der Unterschied zwischen 'margin' und 'padding' in CSS?",
+    "antworten": [
+      "Margin ist der Außenabstand eines Elements, Padding ist der Innenabstand (zwischen Rahmen und Inhalt).",
+      "Es gibt keinen Unterschied, beides macht das Gleiche.",
+      "Margin wird für Texte genutzt, Padding für Bilder."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Stell dir ein Bild in einem Bilderrahmen vor: Padding ist das Passepartout (innen), Margin ist der Abstand zum nächsten Bilderrahmen an der Wand."
+  },
+  {
+    "id": 73,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Was macht das <form>-Tag in HTML?",
+    "antworten": [
+      "Es zeichnet geometrische Formen auf den Bildschirm.",
+      "Es erstellt einen Bereich für Benutzereingaben (wie Textfelder und Buttons), die an einen Server gesendet werden können.",
+      "Es formatiert den Text in eine Tabelle um."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Jeder Login-Bereich, jede Suchleiste und jedes Kontaktformular im Web wird von einem <form>-Tag umschlossen."
+  },
+  {
+    "id": 74,
+    "kategorie": "Webentwicklung",
+    "level": 1,
+    "frage": "Welche Maßeinheit in CSS ist relativ zur Bildschirmgröße des Nutzers?",
+    "antworten": [
+      "px (Pixel)",
+      "cm (Zentimeter)",
+      "vw (Viewport Width)"
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "100vw entspricht genau 100% der Breite des aktuellen Bildschirms. Das ist extrem nützlich, um responsive Webseiten für Handys und PCs zu bauen."
+  },
+  {
+    "id": 75,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was ist ein 'String' in der Programmierung?",
+    "antworten": [
+      "Eine Aneinanderreihung von Zeichen, also gewöhnlicher Text (z.B. ein Name oder ein Satz).",
+      "Eine Zahl mit Kommastellen.",
+      "Ein Verbindungsfehler zum Server."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Strings stehen im Code fast immer in Anführungszeichen. Ohne Anführungszeichen würde der Computer denken, es handle sich um einen Befehl oder eine Variable."
+  },
+  {
+    "id": 76,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Welchen Datentyp nutzt man für ganze Zahlen (ohne Komma)?",
+    "antworten": [
+      "String",
+      "Boolean",
+      "Integer"
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Ein Integer (oft 'int' abgekürzt) wird genutzt, um z.B. das Level einer Quizfrage (1, 2 oder 3) oder das Alter eines Users zu speichern."
+  },
+  {
+    "id": 77,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was bewirkt der Befehl 'return' innerhalb einer Funktion?",
+    "antworten": [
+      "Er beendet die Funktion und gibt einen bestimmten Wert an die Stelle zurück, von der die Funktion aufgerufen wurde.",
+      "Er startet den Computer neu.",
+      "Er macht die letzte Code-Änderung rückgängig."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn eine Funktion z.B. zwei Zahlen addiert, sorgt 'return' dafür, dass das fertige Ergebnis aus der Funktion herausgegeben wird, damit du es weiterverwenden kannst."
+  },
+  {
+    "id": 78,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Was ist der Unterschied zwischen 'null' und 'undefined' (besonders in JavaScript)?",
+    "antworten": [
+      "Es ist genau das Gleiche.",
+      "Null ist eine Zahl, undefined ist ein Text.",
+      "Undefined heißt, einer Variablen wurde noch kein Wert zugewiesen. Null ist ein absichtlich gesetzter 'leerer' Wert."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Wenn du eine Box kaufst, ist sie 'undefined' (du weißt noch nicht, was reinkommt). Wenn du sie absichtlich ausleerst, ist sie 'null'."
+  },
+  {
+    "id": 79,
+    "kategorie": "Code",
+    "level": 1,
+    "frage": "Wann benutzt man eine 'while'-Schleife?",
+    "antworten": [
+      "Wenn man will, dass der Code langsamer ausgeführt wird.",
+      "Wenn man Code wiederholen möchte, solange eine bestimmte Bedingung zutrifft, aber man vorher nicht weiß, wie oft das sein wird.",
+      "Nur in Verbindung mit CSS-Animationen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Beispiel: 'Solange (while) der User das falsche Passwort eingibt, zeige die Login-Maske erneut'."
+  },
+  {
+    "id": 80,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist ein 'Branch' (Zweig) in Git?",
+    "antworten": [
+      "Eine Kopie des Hauptcodes, in der du sicher neue Features entwickeln kannst, ohne den funktionierenden Hauptcode kaputt zu machen.",
+      "Ein Entwickler, der das Team verlässt.",
+      "Ein Server-Absturz."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Branches sind essenziell für Teamarbeit. Jeder arbeitet in seinem eigenen Zweig. Erst wenn das Feature fertig und fehlerfrei ist, wird es in den Hauptzweig (Main) eingefügt."
+  },
+  {
+    "id": 81,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist ein 'Merge' in der Versionskontrolle?",
+    "antworten": [
+      "Das Löschen von veraltetem Code.",
+      "Das Zusammenführen von Code aus zwei verschiedenen Branches (z.B. vom Feature-Branch in den Main-Branch).",
+      "Das Übersetzen von Code in eine andere Sprache."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Nachdem du an deinem Branch gearbeitet hast, 'mergest' du ihn. Manchmal entstehen dabei 'Konflikte', wenn zwei Entwickler dieselbe Code-Zeile geändert haben."
+  },
+  {
+    "id": 82,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was ist ein 'Pull Request' (PR)?",
+    "antworten": [
+      "Eine offizielle Anfrage an das Team, deinen Code-Branch zu überprüfen und in den Hauptcode zu übernehmen (mergen).",
+      "Eine Anfrage an den Nutzer, die Seite neu zu laden.",
+      "Eine Rechnung für Serverkosten."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Pull Requests (oder Merge Requests) sind der Standard-Prozess für Code-Reviews. Andere Entwickler schauen sich deinen Code an, bevor er live geht."
+  },
+  {
+    "id": 83,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Wofür nutzt man Ticket-Systeme wie Jira oder Trello?",
+    "antworten": [
+      "Um Konzertkarten für das Team zu buchen.",
+      "Um Code schneller kompilieren zu lassen.",
+      "Um Aufgaben (Tasks), Bugs und neue Features im Team zu planen, zu priorisieren und den Fortschritt zu überwachen."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "In der Praxis schreibt man nie einfach wild drauf los. Alles, was programmiert wird, steht vorher als 'Ticket' auf einem digitalen Board."
+  },
+  {
+    "id": 84,
+    "kategorie": "Softwareentwicklung",
+    "level": 1,
+    "frage": "Was bedeutet es, wenn Software sich im Status 'Beta' befindet?",
+    "antworten": [
+      "Die Software ist noch fehlerhaft und unvollständig, wird aber bereits von echten Nutzern getestet, um Feedback zu sammeln.",
+      "Die Software ist final und wird nie wieder ein Update bekommen.",
+      "Die Software wurde von der KI geschrieben."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Die Beta-Phase kommt nach der internen Alpha-Phase. Hier geht es darum, Bugs unter realen Bedingungen zu finden, bevor der offizielle Release stattfindz."
+  },
+  {
+    "id": 85,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist NPM (Node Package Manager)?",
+    "antworten": [
+      "Ein Programm, das den Laptop auf Viren scannt.",
+      "Ein riesiges Online-Verzeichnis und Werkzeug, um vorgefertigte Code-Pakete (Libraries) für JavaScript/Node.js herunterzuladen und zu verwalten.",
+      "Ein Protokoll für sichere E-Mails."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du in deiner App Kalender-Funktionen oder sichere Passwörter brauchst, lädst du dir mit NPM einfach das passende Paket herunter."
+  },
+  {
+    "id": 86,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Warum nutzt man im Backend sogenannte 'Environment Variables' (Umgebungsvariablen, oft in einer .env-Datei)?",
+    "antworten": [
+      "Um geheime Daten wie API-Keys oder Datenbank-Passwörter sicher zu speichern, ohne sie direkt in den Quellcode zu schreiben.",
+      "Um die Temperatur des Servers zu messen.",
+      "Um den Code in verschiedene Sprachen (z.B. Englisch/Deutsch) zu übersetzen."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn du deinen Code auf GitHub stellst, kann ihn jeder sehen. Daher packt man Passwörter in eine .env-Datei und schließt diese vom Upload aus."
+  },
+  {
+    "id": 87,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist ein 'Port' in der Netzwerktechnik (z.B. Port 80 oder 443)?",
+    "antworten": [
+      "Die USB-Buchse am Server.",
+      "Eine digitale Hausnummer auf einem Server, die bestimmt, an welchen Dienst eine eingehende Anfrage (z.B. für eine Webseite) weitergeleitet wird.",
+      "Die Internetgeschwindigkeit."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn dein Server gleichzeitig Mails und eine Webseite anbietet, sorgen Ports dafür, dass der Web-Traffic an den Webserver (meist Port 80/443) geht."
+  },
+  {
+    "id": 88,
+    "kategorie": "Backend",
+    "level": 1,
+    "frage": "Was ist HTTPS (im Gegensatz zu HTTP)?",
+    "antworten": [
+      "Eine langsamere, veraltete Version von HTTP.",
+      "Eine verschlüsselte Version von HTTP, die sicherstellt, dass Daten (wie Passwörter) zwischen Browser und Server nicht mitgelesen werden können.",
+      "Ein Protokoll nur für das Herunterladen von Bildern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Das 'S' steht für Secure. Ohne HTTPS stuft jeder moderne Browser deine Webseite sofort als 'Nicht sicher' ein."
+  },
+  {
+    "id": 89,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was ist ein 'Record' (Datensatz) in einer Datenbank?",
+    "antworten": [
+      "Eine Fehlermeldung der Datenbank.",
+      "Eine einzelne, vollständige Zeile in einer Tabelle (z.B. alle Daten eines bestimmten Nutzers).",
+      "Das Passwort für die Datenbank."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "In einer Tabelle 'Benutzer' wäre ein Record die Zeile, die deine ID, deinen Namen und deine E-Mail-Adresse enthält."
+  },
+  {
+    "id": 90,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was bezeichnet man als 'Backup'?",
+    "antworten": [
+      "Den Prozess, bei dem Daten gelöscht werden.",
+      "Eine Sicherheitskopie der gesamten Datenbank, um im Falle eines Serverabsturzes oder Hacks keine Daten zu verlieren.",
+      "Ein Befehl, um Daten alphabetisch zu sortieren."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Regelmäßige automatisierte Backups sind die absolute Lebensversicherung für jede Web-App, die veröffentlicht wird."
+  },
+  {
+    "id": 91,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Warum ist es gefährlich, Texteingaben von Nutzern ungetestet in einer SQL-Abfrage zu verwenden?",
+    "antworten": [
+      "Es könnte zu einer SQL-Injection kommen, bei der Hacker bösartigen Code einschleusen und die Datenbank manipulieren oder auslesen.",
+      "Der Text könnte Rechtschreibfehler enthalten.",
+      "Die Datenbank verbraucht dadurch zu viel Strom."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "SQL-Injection ist einer der häufigsten und gefährlichsten Angriffe. Entwickler müssen Nutzereingaben daher immer 'bereinigen' (Sanitization)."
+  },
+  {
+    "id": 92,
+    "kategorie": "Datenbanken",
+    "level": 1,
+    "frage": "Was macht das SQL-Schlüsselwort 'WHERE'?",
+    "antworten": [
+      "Es fragt, wo der Server steht.",
+      "Es filtert die Daten einer Tabelle nach bestimmten Kriterien (z.B. 'WHERE level = 1').",
+      "Es erstellt eine neue Tabelle."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ohne WHERE würde die Datenbank bei einer Abfrage immer alle Einträge der Tabelle zurückliefern. WHERE ist dein Suchfilter."
+  },
+  {
+    "id": 93,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist ein 'Cache'?",
+    "antworten": [
+      "Ein Zwischenspeicher, der häufig benötigte Daten vorhält, damit sie beim nächsten Mal schneller geladen werden können.",
+      "Ein Virus, der Dateien versteckt.",
+      "Eine Programmiersprache für Handys."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn du eine Webseite besuchst, speichert der Browser Bilder im Cache. Besuchst du die Seite morgen wieder, lädt sie viel schneller, weil die Bilder schon da sind."
+  },
+  {
+    "id": 94,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist ein 'Cookie' im Web-Kontext?",
+    "antworten": [
+      "Eine kleine Textdatei, die eine Webseite im Browser des Nutzers speichert, um sich z.B. Logins oder Warenkörbe zu merken.",
+      "Ein Werbebanner.",
+      "Ein Sicherheitsprotokoll."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Cookies sind der Grund, warum du dich bei YouTube nicht jeden Tag neu anmelden musst. Der Browser schickt das Cookie bei jedem Besuch an den Server mit."
+  },
+  {
+    "id": 95,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was bedeutet 'Syntax Highlighting'?",
+    "antworten": [
+      "Die Tatsache, dass Code-Editoren bestimmte Wörter, Variablen und Befehle automatisch in verschiedenen Farben markieren, um sie lesbarer zu machen.",
+      "Ein Warnhinweis bei schlechtem Code.",
+      "Das Übersetzen von Code in eine Fremdsprache."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Syntax Highlighting hilft Entwicklern extrem dabei, Tippfehler schnell zu erkennen, weil z.B. ein fehlendes Anführungszeichen sofort die falsche Farbe nach sich zieht."
+  },
+  {
+    "id": 96,
+    "kategorie": "Coding Glossar",
+    "level": 1,
+    "frage": "Was ist eine 'Domain'?",
+    "antworten": [
+      "Der lesbare Name einer Webseite im Internet (z.B. google.com), der hinter den Kulissen auf eine IP-Adresse verweist.",
+      "Ein Server für Datenbanken.",
+      "Ein Ordner auf dem Computer."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Menschen können sich 'mein-quiz.de' viel besser merken als '192.168.2.14'. Domains werden über DNS (Domain Name System) in IP-Adressen übersetzt."
+  },
+  {
+    "id": 97,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was ist ein 'API Key' bei der Nutzung von KI-Diensten?",
+    "antworten": [
+      "Ein Passwort, das die KI knacken muss.",
+      "Ein individueller, geheimer Schlüssel, den du in deine App einbaust, um der KI-Plattform (z.B. OpenAI) zu beweisen, wer die Anfragen stellt und bezahlt.",
+      "Ein Befehl, um die KI auszuschalten."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du eine KI in deine eigene Web-App integrieren willst, läuft die gesamte Kommunikation über diese Schnittstelle (API), abgesichert durch deinen Key."
+  },
+  {
+    "id": 98,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was versteht man unter dem 'Kontextfenster' (Context Window) einer KI?",
+    "antworten": [
+      "Das Pop-up-Fenster auf dem Bildschirm.",
+      "Die maximale Menge an Text (Tokens), die das Modell in einer einzigen Unterhaltung auf einmal 'im Kopf' behalten und verarbeiten kann.",
+      "Die Uhrzeit, zu der die KI aktiv ist."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du einen sehr langen Code einfügst, der größer ist als das Kontextfenster, 'vergisst' die KI den Anfang des Codes und macht Fehler."
+  },
+  {
+    "id": 99,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was ist ein 'System Prompt' (oder System Instructions)?",
+    "antworten": [
+      "Ein Fehlersignal des Betriebssystems.",
+      "Eine unsichtbare Grundeinstellung, die der KI vorgibt, welche Rolle sie einnehmen soll (z.B. 'Du bist ein hilfreicher Programmier-Tutor').",
+      "Das Passwort für den Computer."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Mit einem System Prompt steuerst du in deiner eigenen KI-App das generelle Verhalten und den Tonfall der KI, bevor der Nutzer überhaupt die erste Frage stellt."
+  },
+  {
+    "id": 100,
+    "kategorie": "KI",
+    "level": 1,
+    "frage": "Was passiert bei einem 'Rate Limit' (Ratenbegrenzung) einer KI-API?",
+    "antworten": [
+      "Die KI antwortet falsch.",
+      "Der Server blockiert weitere Anfragen, weil deine App in sehr kurzer Zeit zu viele Fragen gestellt hat.",
+      "Die App wird aus dem Internet gelöscht."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Rate Limits schützen die Server der Anbieter vor Überlastung. Beim Entwickeln musst du sicherstellen, dass deine App nicht abstürzt, wenn so ein Limit erreicht wird."
+  },
+  {
+    "id": 101,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Wie zentriert man ein HTML-Element mit 'CSS Flexbox' am einfachsten sowohl horizontal als auch vertikal?",
+    "antworten": [
+      "Mit 'margin: auto' auf dem Element selbst.",
+      "Indem man den Container auf 'display: flex' setzt und 'justify-content: center' sowie 'align-items: center' anwendet.",
+      "Mit 'position: absolute' und 'top: 50%'."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Flexbox ist der moderne Standard für Layouts. 'justify-content' steuert die Hauptachse (meist horizontal), 'align-items' die Querachse."
+  },
+  {
+    "id": 102,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Wie fügt man mit reinem JavaScript (Vanilla JS) am besten ein neues Element auf der Webseite hinzu?",
+    "antworten": [
+      "Man nutzt 'document.createElement()', passt das Element an und fügt es mit 'appendChild()' in den DOM ein.",
+      "Man lädt die Seite mit 'location.reload()' neu.",
+      "Man ändert die CSS-Datei des Servers."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Diese Methode ist essenziell für dynamische Web-Apps. Anstatt HTML fest in die Datei zu schreiben, baut dein JavaScript die Seite live im Browser auf."
+  },
+  {
+    "id": 103,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Warum bevorzugen Webentwickler 'semantische HTML-Tags' wie <article>, <nav> oder <main> anstelle von hunderten <div>-Tags?",
+    "antworten": [
+      "Weil <div> Tags von modernen Browsern nicht mehr unterstützt werden.",
+      "Weil sie die App schneller machen, da sie weniger Speicherplatz benötigen.",
+      "Weil sie Screenreadern (für blinde Nutzer) und Suchmaschinen (wie Google) den inhaltlichen Aufbau der Seite besser erklären."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Semantisches HTML ist der Schlüssel zu guter Barrierefreiheit (Accessibility) und Suchmaschinenoptimierung (SEO)."
+  },
+  {
+    "id": 104,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was ist der kerngedanke des 'Mobile First'-Ansatzes beim Designen einer App?",
+    "antworten": [
+      "Man programmiert zuerst eine App für iOS, bevor man eine Webseite baut.",
+      "Man stylt die Seite zuerst für kleine Handy-Bildschirme und fügt dann mit CSS Media Queries komplexere Layouts für Desktop-PCs hinzu.",
+      "Man verbietet Desktop-Nutzern den Zugriff auf die Seite."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "'Mobile First' sorgt für saubereren Code und bessere Performance auf mobilen Geräten, die heute den Großteil des Web-Traffics ausmachen."
+  },
+  {
+    "id": 105,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Wofür nutzt man 'event.preventDefault()' in JavaScript häufig, z.B. bei einem Formular?",
+    "antworten": [
+      "Um zu verhindern, dass Hacker den Code lesen können.",
+      "Um das Standardverhalten des Browsers (wie das automatische Neuladen der Seite nach einem Klick auf 'Submit') zu stoppen.",
+      "Um eine automatische E-Mail an den Admin zu senden."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "In modernen Single Page Applications (wie mit React oder Vue) verarbeiten wir die Formulardaten im Hintergrund selbst, ohne dass die Seite nervig neu lädt."
+  },
+  {
+    "id": 106,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was ist eine 'Callback-Funktion'?",
+    "antworten": [
+      "Eine Funktion, die den Support des Software-Anbieters anruft.",
+      "Eine Funktion, die als Argument an eine andere Funktion übergeben wird, um dort zu einem späteren Zeitpunkt ausgeführt zu werden.",
+      "Ein fehlerhafter Code-Block, der in einer Endlosschleife feststeckt."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Callbacks sind in JavaScript allgegenwärtig. Beispiel: 'Wenn der Nutzer den Button klickt (Event), rufe diese bestimmte Funktion (Callback) auf'."
+  },
+  {
+    "id": 107,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Welches Problem lösen 'async' und 'await' in modernem Code?",
+    "antworten": [
+      "Sie machen asynchronen Code (z.B. das Warten auf Datenbank-Ergebnisse) lesbarer, da er fast so aussieht wie synchroner Code, der nacheinander abläuft.",
+      "Sie zwingen den Code dazu, sofort abzubrechen, wenn ein Fehler passiert.",
+      "Sie laden Bilder auf Webseiten schneller herunter."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Vor async/await musste man sogenannte 'Promises' mit '.then()' aneinanderreihen, was bei vielen API-Aufrufen schnell extrem unübersichtlich wurde."
+  },
+  {
+    "id": 108,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was ist der wichtigste Unterschied zwischen 'let' und 'var' zum Deklarieren von Variablen in JavaScript?",
+    "antworten": [
+      "'let' kann man nur für Zahlen benutzen.",
+      "'var' wird nur im Frontend genutzt, 'let' nur im Backend.",
+      "'let' hat einen Block-Scope (gilt nur innerhalb der aktuellen Klammern {}), was unvorhersehbare Fehler im Code drastisch verringert."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "In moderner Programmierung nutzt man eigentlich kein 'var' mehr. 'let' (für veränderliche Werte) und 'const' (für feste Werte) sind der Standard."
+  },
+  {
+    "id": 109,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Wofür verwendet man einen 'try...catch'-Block?",
+    "antworten": [
+      "Um potenziell fehlerhaften Code (z.B. einen API-Aufruf) auszuführen (try) und im Fehlerfall nicht die ganze App abstürzen zu lassen, sondern den Fehler elegant abzufangen (catch).",
+      "Um herauszufinden, ob ein Text ein bestimmtes Wort enthält.",
+      "Um einen Virus auf dem Server in Quarantäne zu verschieben."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn deine App z.B. Daten von einem Wetter-Server lädt, aber der Server offline ist, fängt 'catch' den Fehler auf und zeigt dem User eine nette Meldung statt eines weißen Bildschirms."
+  },
+  {
+    "id": 110,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Wie löst man in Git einen 'Merge Conflict' (Konflikt beim Zusammenführen von Code)?",
+    "antworten": [
+      "Man muss das gesamte Projekt löschen und neu herunterladen.",
+      "Git entscheidet automatisch per Zufall, welche Version behalten wird.",
+      "Man öffnet die betroffene Datei, wählt manuell aus, welche Code-Zeilen behalten werden sollen, und erstellt dann einen neuen Commit."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Konflikte passieren, wenn zwei Entwickler exakt dieselbe Zeile Code unterschiedlich bearbeitet haben. Das ist normaler Entwickleralltag und kein Grund zur Panik."
+  },
+  {
+    "id": 111,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was versteht man unter 'Continuous Integration' (CI) im modernen App-Development?",
+    "antworten": [
+      "Das automatische und regelmäßige Zusammenführen von Code-Änderungen mehrerer Entwickler in ein gemeinsames Projekt, gefolgt von automatisierten Tests.",
+      "Eine Programmiersprache, die unendlich lange läuft.",
+      "Das ständige Einfügen von Werbung in eine App."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "CI (wie GitHub Actions) ist wie ein virtueller Qualitätsprüfer. Sobald du Code hochlädst, testet das System automatisch, ob dein neuer Code alte Funktionen zerstört hat."
+  },
+  {
+    "id": 112,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Welches Konzept steckt hinter der Architektur 'MVC' (Model-View-Controller)?",
+    "antworten": [
+      "Eine Lizenzvereinbarung für Software-Kopien.",
+      "Die saubere Trennung der Software in drei Bereiche: Datenstruktur (Model), Benutzeroberfläche (View) und die Steuerungslogik dazwischen (Controller).",
+      "Ein Verschlüsselungsalgorithmus für Passwörter."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "MVC hilft Entwicklern enorm. Wenn das Design (View) geändert werden soll, muss man nicht aus Versehen die Datenbank-Logik (Model) anfassen."
+  },
+  {
+    "id": 113,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was unterscheidet einen 'Integrationstest' von einem 'Unit Test'?",
+    "antworten": [
+      "Ein Unit Test ist kostenlos, ein Integrationstest kostet Geld.",
+      "Ein Unit Test testet nur einen isolierten Baustein (z.B. eine Funktion). Ein Integrationstest prüft, ob mehrere Bausteine (z.B. API und Datenbank) korrekt zusammenarbeiten.",
+      "Integrationstests werden nur von den Endnutzern durchgeführt."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Unit Tests prüfen z.B., ob deine Formel Rabatte richtig berechnet. Der Integrationstest prüft, ob der Warenkorb den Rabatt speichern und an die Bezahl-API senden kann."
+  },
+  {
+    "id": 114,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist die Hauptaufgabe eines 'Scrum Masters' in einem agilen Entwicklerteam?",
+    "antworten": [
+      "Er programmiert die schwierigsten Teile der Applikation.",
+      "Er beseitigt Blockaden und Hindernisse für das Team und stellt sicher, dass der Scrum-Prozess (Meetings, Sprints) reibungslos funktioniert.",
+      "Er ist der alleinige Chef, der dem Team befiehlt, was zu tun ist."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Der Scrum Master ist kein traditioneller Manager. Er ist eine Art 'dienende Führungskraft' (Servant Leader), die das Team vor Ablenkungen abschirmt."
+  },
+  {
+    "id": 115,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Warum ist eine richtig konfigurierte '.gitignore'-Datei in fast jedem Projekt unverzichtbar?",
+    "antworten": [
+      "Sie verhindert, dass private Dateien (wie Passwörter, API-Keys in .env-Dateien) oder riesige temporäre Ordner ins öffentliche Internet geladen werden.",
+      "Sie versteckt Fehler im Code vor dem Projektmanager.",
+      "Sie löscht automatisch alte Code-Versionen."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Das versehentliche Hochladen von API-Keys auf GitHub ist ein riesiges Sicherheitsrisiko. Die .gitignore-Datei ist dein Türsteher, der sagt, welche Dateien Git ignorieren soll."
+  },
+  {
+    "id": 116,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was bedeutet es, dass REST-APIs idealerweise 'zustandslos' (stateless) sind?",
+    "antworten": [
+      "Sie funktionieren nicht in bestimmten Bundesländern.",
+      "Der Server speichert keine Informationen über vergangene Anfragen. Jede neue Anfrage vom Client muss alle Daten (z.B. ein Token) enthalten, um sich zu authentifizieren.",
+      "Sie stürzen nie ab."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Statelessness macht APIs extrem skalierbar. Wenn du eine Million User hast, kann Server A die erste Anfrage beantworten und Server B die zweite, ohne dass sie sich absprechen müssen."
+  },
+  {
+    "id": 117,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Wie speichert man Nutzer-Passwörter nach aktuellen Best Practices in einer Datenbank?",
+    "antworten": [
+      "In einer separaten Tabelle als normalen Text.",
+      "Man komprimiert sie in eine ZIP-Datei.",
+      "Man speichert sie niemals als Klartext, sondern wandelt sie vor dem Speichern durch eine Einweg-Verschlüsselung (Hashing, z.B. bcrypt) und einen 'Salt' in eine unleserliche Zeichenkette um."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Wenn eine Datenbank gehackt wird, sind gehashte Passwörter für die Hacker wertlos. Der Server vergleicht beim Login nur den Hash des eingegebenen Passworts mit dem Hash in der Datenbank."
+  },
+  {
+    "id": 118,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was ist die Aufgabe von 'Middleware' in Web-Frameworks wie Express.js (Node)?",
+    "antworten": [
+      "Es ist die Software, die den Monitor mit dem PC verbindet.",
+      "Es sind Funktionen, die ausgeführt werden, *bevor* die eigentliche Routen-Logik startet, z.B. um zu checken, ob der User überhaupt eingeloggt ist.",
+      "Es ist das Design der Ladeseite."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Middleware liegt wie ein Filter zwischen der Anfrage des Nutzers und deiner Antwort. Man nutzt sie für Authentifizierung, Logging oder Fehlerbehandlung."
+  },
+  {
+    "id": 119,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was regelt CORS (Cross-Origin Resource Sharing) im Web?",
+    "antworten": [
+      "Es ist ein Sicherheitskonzept der Browser, das kontrolliert, ob dein Frontend auf www.meine-app.de überhaupt Daten von der Backend-API auf api.mein-backend.de abrufen darf.",
+      "Es sorgt dafür, dass Webseiten auf allen Browsern gleich aussehen.",
+      "Es komprimiert Videodateien für schnellere Ladezeiten."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "CORS-Fehler treiben viele Backend-Anfänger in den Wahnsinn. Dein Server muss explizit erlauben, welche externen URLs auf ihn zugreifen dürfen, um Missbrauch zu verhindern."
+  },
+  {
+    "id": 120,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Wofür braucht man in einer großen App-Architektur einen 'Load Balancer'?",
+    "antworten": [
+      "Er sorgt dafür, dass die Stromrechnung nicht zu hoch wird.",
+      "Er sitzt wie ein Verkehrspolizist vor deinen Servern und verteilt eingehende Nutzer-Anfragen gleichmäßig auf mehrere Backend-Server, damit keiner unter Last zusammenbricht.",
+      "Er löscht große Dateien aus der Datenbank."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn deine App plötzlich viral geht, reicht ein einzelner Server nicht mehr. Der Load Balancer leitet den Traffic clever an 10 oder 100 Server weiter."
+  },
+  {
+    "id": 121,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was passiert bei einem 'LEFT JOIN' zweier Datenbank-Tabellen (z.B. User und Bestellungen)?",
+    "antworten": [
+      "Alle Daten werden sofort gelöscht.",
+      "Es werden alle Datensätze der linken Tabelle (User) zurückgegeben, plus die passenden Daten der rechten Tabelle. Hat ein User keine Bestellung, wird er trotzdem angezeigt (mit leeren Bestell-Feldern).",
+      "Es werden nur die Bestellungen angezeigt, die fehlerhaft sind."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Im Gegensatz zum 'INNER JOIN' (der nur User mit Bestellungen zeigt), ist der LEFT JOIN super, um Listen zu erstellen wie: 'Zeige mir alle User, und falls sie was gekauft haben, zeige auch das'."
+  },
+  {
+    "id": 122,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Warum wendet man bei relationalen Datenbanken 'Normalisierung' an?",
+    "antworten": [
+      "Um alle Daten in einer einzigen, riesigen Tabelle zu speichern.",
+      "Um die Datenbank so aufzuteilen, dass Redundanzen (doppelt vorkommende Daten) vermieden werden und Änderungen an einem Ort sofort überall gelten.",
+      "Um die Schriftart der Datenbank zu standardisieren."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Statt den Namen einer Firma bei 100 Mitarbeitern immer wieder als Text reinzuschreiben, speichert man die Firma einmal in einer eigenen Tabelle und verweist nur per ID darauf."
+  },
+  {
+    "id": 123,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "In welchem Szenario ist eine NoSQL-Datenbank (wie MongoDB) oft die bessere Wahl als eine strikte SQL-Datenbank?",
+    "antworten": [
+      "Wenn man Daten hat, deren Struktur im Vorfeld nicht klar ist oder sich ständig ändert (z.B. Produktkataloge mit sehr unterschiedlichen Eigenschaften).",
+      "Wenn man hochkomplexe Finanzbuchhaltung betreibt.",
+      "Wenn man nur Zahlen speichern möchte."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "NoSQL speichert Daten meist als JSON-ähnliche Dokumente. Das bedeutet, ein Produkt kann 5 Eigenschaften haben und das nächste 20, ohne dass man das Tabellenschema ändern muss."
+  },
+  {
+    "id": 124,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was garantiert das 'ACID'-Prinzip bei Datenbank-Transaktionen?",
+    "antworten": [
+      "Dass die Datenbank mit Säure gereinigt wird.",
+      "Dass mehrere zusammenhängende Operationen (z.B. Geld von A abziehen, bei B gutschreiben) entweder komplett erfolgreich durchgeführt oder im Fehlerfall komplett zurückgerollt werden.",
+      "Dass die Datenbank automatisch ins Englische übersetzt wird."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "ACID (Atomicity, Consistency, Isolation, Durability) schützt vor halben Sachen. Wenn der Server beim Geldtransfer in der Mitte abstürzt, verschwindet das Geld nicht im Nirvana."
+  },
+  {
+    "id": 125,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Indizes machen das Suchen in Datenbanken rasend schnell. Warum setzt man dann nicht einfach auf jede Spalte einen Index?",
+    "antworten": [
+      "Weil Indizes viel Speicherplatz verbrauchen und jeden neuen Schreib-Vorgang (Insert/Update) verlangsamen, da der Index jedes Mal mit aktualisiert werden muss.",
+      "Weil die Datenbank dann zu schnell antwortet und der Server überhitzt.",
+      "Man setzt prinzipiell auf jede Spalte einen Index."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Ein klassischer Trade-off (Kompromiss) im Backend. Indizes sind super für Felder, nach denen man oft sucht (E-Mail, ID), aber schlecht für Felder, die sich ständig ändern."
+  },
+  {
+    "id": 126,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was beschreiben erfahrene Entwickler als 'Technical Debt' (Technische Schulden)?",
+    "antworten": [
+      "Das Geld, das das Startup für Serverkosten bezahlen muss.",
+      "Wenn man Code unsauber und gehetzt schreibt, um eine Deadline zu schaffen. Das rächt sich später durch schwer wartbaren und fehleranfälligen Code (man zahlt 'Zinsen').",
+      "Kredite für Computer-Hardware."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Manchmal muss man technische Schulden aufnehmen, um ein Produkt schnell zu veröffentlichen. Aber gute Teams bauen diese Schulden durch 'Refactoring' regelmäßig wieder ab."
+  },
+  {
+    "id": 127,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Welches Problem löst man mit Containern wie 'Docker' in der Praxis?",
+    "antworten": [
+      "Das Problem 'Auf meinem Rechner hat es funktioniert!'. Docker verpackt die App mit exakt der benötigten Software-Umgebung, sodass sie überall identisch läuft.",
+      "Sie schützen den Laptop vor Stürzen.",
+      "Sie verkleinern Bilder für Webseiten."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Statt stundenlang Server zu konfigurieren, gibst du dem Server einfach deinen Docker-Container. Darin ist deine App, das passende Betriebssystem und alle Tools fertig installiert."
+  },
+  {
+    "id": 128,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Wie funktioniert das OAuth-Protokoll, das oft für 'Login mit Google / GitHub' genutzt wird?",
+    "antworten": [
+      "Der Nutzer gibt sein Google-Passwort direkt in deine App ein, und du speicherst es in deiner Datenbank.",
+      "Der Nutzer loggt sich direkt bei Google ein, Google leitet ihn zurück zu deiner App und übergibt dir ein sicheres Zugriffs-Token (nicht das Passwort).",
+      "Es scannt das Gesicht des Nutzers."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "OAuth ist fantastisch, weil du dich als Entwickler nicht selbst um den sicheren Umgang mit Passwörtern kümmern musst. Der Identitäts-Provider (z.B. Google) übernimmt das für dich."
+  },
+  {
+    "id": 129,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist der Unterschied zwischen dem Anfragen einer API und der Nutzung eines 'Webhooks'?",
+    "antworten": [
+      "Bei einer API fragt deine App aktiv 'Gibt es was Neues?'. Ein Webhook hingegen sendet automatisch Daten an deine App, sobald ein Event (z.B. eine Bezahlung bei Stripe) stattfindet.",
+      "APIs sind für Frontend, Webhooks sind für Backend.",
+      "Webhooks sind langsamer als APIs."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Webhooks nennt man auch 'Reverse APIs'. Sie sind unglaublich effizient, da deine App nicht minütlich beim Zahlungsanbieter nachfragen muss, ob das Geld schon da ist."
+  },
+  {
+    "id": 130,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was versteht man unter einer 'Microservice'-Architektur im Gegensatz zu einem 'Monolithen'?",
+    "antworten": [
+      "Eine App so klein zu programmieren, dass sie auf eine Floppy-Disk passt.",
+      "Statt einer riesigen App (Monolith) baut man viele kleine, unabhängige Programme (z.B. eins nur für Rechnungen, eins für Logins), die über APIs miteinander kommunizieren.",
+      "Ein Monolith ist quelloffen, ein Microservice kostet Geld."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Netflix oder Amazon nutzen Microservices. Wenn der Empfehlungs-Service abstürzt, können Nutzer trotzdem noch Filme schauen. Beim Monolithen wäre die ganze Seite down."
+  },
+  {
+    "id": 131,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Wie bindet man KI-Modelle wie ChatGPT sicher in eine eigene, veröffentlichte Web-App ein?",
+    "antworten": [
+      "Das Frontend schickt die Anfrage sicherheitshalber an das eigene Backend. Das Backend fügt den geheimen API-Key hinzu und kommuniziert mit OpenAI.",
+      "Man packt seinen geheimen API-Key direkt in den JavaScript-Code im Frontend.",
+      "Man zwingt die Nutzer, ihren eigenen OpenAI Account zu erstellen."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Alles im Frontend (Browser) ist für den Nutzer sichtbar. Wenn du dort deinen API-Key hinterlegst, klauen Hacker ihn innerhalb von Sekunden und nutzen ihn auf deine Kosten."
+  },
+  {
+    "id": 132,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was macht das Konzept 'RAG' (Retrieval-Augmented Generation) so wertvoll für Firmen-Apps?",
+    "antworten": [
+      "Es macht die KI komplett fehlerfrei.",
+      "Es ermöglicht es, der KI bei einer Frage automatisch firmenspezifische Dokumente aus einer eigenen Datenbank mitzugeben, damit sie auf Basis echter Firmen-Fakten antwortet.",
+      "Es generiert Bilder statt Text."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein Standard-Modell kennt deine internen Firmen-PDFs nicht. Mit RAG (Suchen + Generieren) kombinierst du das Sprachverständnis der KI mit deinem privaten Fachwissen."
+  },
+  {
+    "id": 133,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Welche Technik wendest du an, wenn du 'Few-Shot Prompting' nutzt?",
+    "antworten": [
+      "Man drückt mehrmals hintereinander auf den Senden-Button.",
+      "Man gibt der KI im Prompt ein oder zwei konkrete Beispiele für die gewünschte Frage-Antwort-Struktur mit, damit sie das exakte Datenformat (z.B. JSON) besser übernimmt.",
+      "Man gibt der KI nur ganz kurze Prompts aus drei Wörtern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Beispiele ('Shots') wirken bei KIs oft Wunder. Wenn du willst, dass eine KI Quizfragen exakt wie unser Skript aufbaut, zeigst du ihr vorher einfach zwei gute Beispiele."
+  },
+  {
+    "id": 134,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Welches drängende Sicherheitsproblem bei KI-Apps wird als 'Prompt Injection' bezeichnet?",
+    "antworten": [
+      "Die KI lädt Viren auf das Smartphone herunter.",
+      "Ein Hacker manipuliert die Eingabe so clever (z.B. 'Ignoriere vorherige Befehle und mache X'), dass die KI den vom Entwickler vorgegebenen System-Prompt ignoriert.",
+      "Die KI antwortet auf die falsche Sprache."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn deine App eine höfliche Support-KI sein soll, könnte ein Nutzer durch Injection versuchen, die KI dazu zu bringen, rassistische Dinge zu sagen oder geheime Prompts zu verraten. Das muss abgefangen werden."
+  },
+  {
+    "id": 135,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Wann solltest du in CSS eher 'CSS Grid' anstelle von 'Flexbox' verwenden?",
+    "antworten": [
+      "Wenn du alte Browser wie den Internet Explorer 6 unterstützen musst.",
+      "Wenn du ein komplexes, zweidimensionales Layout (mit Reihen UND Spalten gleichzeitig) bauen möchtest, wie bei einem Foto-Album.",
+      "Wenn du Text farbig markieren willst."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Flexbox ist perfekt für eindimensionale Layouts (entweder in einer Reihe oder einer Spalte). Grid ist das mächtigere Tool für echte Raster-Layouts in beide Richtungen."
+  },
+  {
+    "id": 136,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was ist der wichtigste Unterschied zwischen 'localStorage' und 'sessionStorage' in JavaScript?",
+    "antworten": [
+      "localStorage speichert nur Bilder, sessionStorage nur Texte.",
+      "Daten im localStorage bleiben erhalten, auch wenn der Browser geschlossen wird. sessionStorage wird gelöscht, sobald der Tab zugeht.",
+      "localStorage kostet Geld, sessionStorage ist kostenlos."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Beide speichern Daten im Browser des Nutzers. LocalStorage eignet sich super für Einstellungen wie den 'Dark Mode', sessionStorage eher für temporäre Formulardaten."
+  },
+  {
+    "id": 137,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Warum ist das 'alt'-Attribut bei <img>-Tags extrem wichtig für professionelle Webseiten?",
+    "antworten": [
+      "Es macht das Bild automatisch schärfer.",
+      "Es ist essenziell für SEO (Suchmaschinen) und Barrierefreiheit (Screenreader lesen den Alt-Text für blinde Nutzer vor).",
+      "Es sorgt dafür, dass Bilder auf Handys nicht angezeigt werden."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Suchmaschinen wie Google können Bilder nicht 'sehen'. Der Alt-Text erklärt ihnen, was auf dem Bild ist. Fehlt er, gibt das Minuspunkte im Ranking."
+  },
+  {
+    "id": 138,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was besagt das Konzept der 'Spezifität' (Specificity) in CSS?",
+    "antworten": [
+      "Dass CSS nur auf Apple-Geräten funktioniert.",
+      "Dass kurze Befehle schneller geladen werden als lange.",
+      "Es ist das Regelwerk, das entscheidet, welches Design angewendet wird, wenn mehrere CSS-Regeln auf dasselbe Element abzielen (z.B. ID schlägt Klasse)."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Wenn du einen Button mit einer Klasse 'blau' machst, ihm aber eine ID gibst, die ihn 'rot' machen soll, gewinnt die ID, weil sie 'spezifischer' (stärker) ist."
+  },
+  {
+    "id": 139,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was ist die Aufgabe von 'Bundlern' wie Webpack oder Vite in einem modernen Frontend-Projekt?",
+    "antworten": [
+      "Sie fassen viele einzelne JavaScript- und CSS-Dateien zu einer oder wenigen kleinen Dateien zusammen, um die Ladezeit der Webseite zu optimieren.",
+      "Sie erstellen automatische Backups der Datenbank.",
+      "Sie designen automatisch Logos für die App."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Beim Programmieren hast du hunderte kleine Dateien für die Übersichtlichkeit. Der Bundler klebt sie vor dem Release zusammen, damit der Browser nicht 100 Dateien einzeln anfragen muss."
+  },
+  {
+    "id": 140,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was ist der Vorteil von sogenannten 'Arrow Functions' (Pfeilfunktionen, z.B. `() => {}`) in JavaScript gegenüber klassischen Funktionen?",
+    "antworten": [
+      "Sie werden vom Computer doppelt so schnell ausgeführt.",
+      "Sie sind kürzer zu schreiben und behalten den 'this'-Kontext ihres Eltern-Elements, was viele nervige Bugs verhindert.",
+      "Sie können nur für mathematische Berechnungen genutzt werden."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Besonders in Frameworks wie React sind Arrow Functions der Standard, weil sie das Problem lösen, dass das Schlüsselwort 'this' plötzlich auf das falsche Objekt zeigt."
+  },
+  {
+    "id": 141,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was machen die Array-Methoden 'map', 'filter' und 'reduce' im Gegensatz zu einer normalen 'for'-Schleife?",
+    "antworten": [
+      "Sie löschen das Array nach der Benutzung.",
+      "Sie bearbeiten Arrays auf eine funktionale, lesbarere Art, ohne das ursprüngliche Array zu verändern (sie erstellen eine neue Kopie mit den Änderungen).",
+      "Sie verbinden sich direkt mit der Datenbank."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du aus einer Liste von Usern alle ausfiltern willst, die unter 18 sind, ist `.filter()` ein robuster und extrem eleganter Einzeiler im Vergleich zu einer for-Schleife."
+  },
+  {
+    "id": 142,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was versteht man unter 'Vererbung' (Inheritance) in der objektorientierten Programmierung (OOP)?",
+    "antworten": [
+      "Das Bezahlen von Lizenzgebühren an den Entwickler des Codes.",
+      "Das automatische Löschen von alten Klassen.",
+      "Eine Klasse (z.B. 'Hund') kann die Eigenschaften und Methoden einer übergeordneten Klasse (z.B. 'Tier') übernehmen und erweitern."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Vererbung spart massiv Code. Wenn 'Tier' schon eine Funktion 'essen()' hat, muss man diese nicht für 'Hund' und 'Katze' nochmal programmieren."
+  },
+  {
+    "id": 143,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was ist eine 'rekursive Funktion' (Rekursion)?",
+    "antworten": [
+      "Eine Funktion, die sich selbst aufruft, bis eine bestimmte Abbruchbedingung erfüllt ist.",
+      "Eine Funktion, die vom Betriebssystem blockiert wird.",
+      "Eine Funktion, die nur Fehlermeldungen ausgibt."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Rekursion ist elegant für tiefe, verschachtelte Datenstrukturen (wie Ordnerstrukturen auf dem PC). Man muss nur extrem aufpassen, keine Endlosschleife zu bauen!"
+  },
+  {
+    "id": 144,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Wofür nutzt man die 'Big-O Notation' (z.B. O(n) oder O(1)) in der Informatik?",
+    "antworten": [
+      "Um zu messen, wie rund ein Kreis gezeichnet ist.",
+      "Um zu beschreiben, wie die Laufzeit (oder der Speicherbedarf) eines Algorithmus wächst, wenn die Menge der zu verarbeitenden Daten größer wird.",
+      "Um die Dateigröße einer MP3 zu bestimmen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "O(1) bedeutet, der Code braucht immer gleich lange (blitzschnell). O(n) bedeutet: Bei 100 Usern dauert es 100 Mal länger. Bei Performance-Problemen muss man hier ansetzen."
+  },
+  {
+    "id": 145,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was beschreibt 'Semantic Versioning' (SemVer), wie bei der Versionsnummer 2.1.4?",
+    "antworten": [
+      "Die erste Zahl (2) steht für den Preis, die anderen für das Jahr.",
+      "Major.Minor.Patch. Ein Major-Update (2->3) bricht oft Kompatibilität, Minor bringt neue Features, Patch fixt nur Bugs.",
+      "Es ist eine reine Fantasiezahl für das Marketing."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "SemVer ist der Goldstandard in der Industrie. Wenn du ein NPM-Paket von 2.1.4 auf 2.1.5 updatest, weißt du sicher, dass deine App danach nicht abstürzt (weil es nur ein Bugfix ist)."
+  },
+  {
+    "id": 146,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist das Prinzip von TDD (Test-Driven Development)?",
+    "antworten": [
+      "Man schreibt erst den automatisierten Test für ein Feature (der anfangs fehlschlägt) und schreibt dann genau den Code, der nötig ist, damit der Test besteht.",
+      "Man testet die App erst, wenn sie komplett fertig veröffentlicht wurde.",
+      "Man lässt die Endnutzer nach Bugs suchen."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "TDD erfordert Disziplin, führt aber zu unglaublich robustem Code, weil man Fehlerfälle (Edge Cases) bedenkt, bevor man überhaupt die erste Logik programmiert."
+  },
+  {
+    "id": 147,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Warum führt man im Team 'Code Reviews' durch?",
+    "antworten": [
+      "Um andere Entwickler bloßzustellen.",
+      "Um die Arbeitszeit künstlich zu verlängern.",
+      "Ein anderer Entwickler prüft deinen Code vor dem Merge, um Bugs zu finden, Best Practices zu sichern und Wissen im Team zu verteilen."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Code Reviews sind der beste Weg für Junioren, von Senioren zu lernen. Vier Augen sehen immer mehr Edge Cases und Logikfehler als zwei."
+  },
+  {
+    "id": 148,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist eine 'CI/CD Pipeline' im Deployment-Prozess?",
+    "antworten": [
+      "Eine direkte Glasfaserkabel-Verbindung zum Server.",
+      "Ein vollautomatisierter Prozess: Sobald du Code pushst, wird er gebaut (Build), getestet (CI) und, wenn alles grün ist, automatisch auf den Live-Server geladen (CD).",
+      "Ein Vertrag mit dem Hosting-Anbieter."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Dank CI/CD (Continuous Integration/Continuous Deployment) laden Entwickler heute nicht mehr manuell Dateien per FTP hoch. Ein Push zu GitHub reicht, und 2 Minuten später ist die App live."
+  },
+  {
+    "id": 149,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist der wesentliche Unterschied zwischen den agilen Frameworks 'Kanban' und 'Scrum'?",
+    "antworten": [
+      "Scrum arbeitet in festen Zeitfenstern (Sprints) mit strengen Rollen. Kanban ist ein kontinuierlicher Fluss, bei dem Tickets einfach nach Priorität abgearbeitet werden.",
+      "Kanban ist nur für Hardware, Scrum nur für Software.",
+      "Es gibt keinen Unterschied, es sind nur zwei Worte für dasselbe."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Kanban (bekannt durch Boards wie Trello) ist oft besser für Support-Teams geeignet, da Bugs sofort angegangen werden. Scrum passt besser für große, planbare App-Features."
+  },
+  {
+    "id": 150,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Wofür nutzt man JWTs (JSON Web Tokens) in Web-Apps meistens?",
+    "antworten": [
+      "Zur Verschlüsselung von Videodateien.",
+      "Als kompakten, sicheren Nachweis für die Authentifizierung in APIs. Der Token speichert signiert die User-ID, sodass der Server bei jedem Klick weiß, wer anfragt.",
+      "Um das Design der Seite zu speichern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "JWTs sind der Standard für Logins in modernen Single Page Applications. Das Token wird im Browser gespeichert und bei jedem API-Aufruf als 'Ausweis' mitgeschickt."
+  },
+  {
+    "id": 151,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Welches Problem lösen 'WebSockets' im Vergleich zu normalen HTTP-Anfragen?",
+    "antworten": [
+      "HTTP ist eine Einbahnstraße (Client fragt, Server antwortet). WebSockets halten eine stehende Verbindung offen, sodass der Server proaktiv Echtzeit-Daten (wie Chat-Nachrichten) pushen kann.",
+      "WebSockets verbrauchen gar keinen Strom.",
+      "WebSockets laden Bilder schneller."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Für eine Chat-App, bei der Nachrichten sofort aufpoppen sollen, ohne dass der Nutzer die Seite neu lädt, sind WebSockets (z.B. mit Socket.io) unverzichtbar."
+  },
+  {
+    "id": 152,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was ist 'Redis' und warum wird es im Backend eingesetzt?",
+    "antworten": [
+      "Ein Betriebssystem für Handys.",
+      "Eine extrem schnelle In-Memory-Datenbank. Sie wird oft als Cache genutzt, um häufige Berechnungen im Arbeitsspeicher statt auf der langsamen Festplatte vorzuhalten.",
+      "Ein Compiler für Java."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn eine API sehr oft aufgerufen wird (z.B. Top 10 Highscores), speichert man das Ergebnis in Redis. Die Antwortzeit sinkt dadurch oft von 200ms auf 5ms."
+  },
+  {
+    "id": 153,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was bedeutet 'Serverless' Architektur (z.B. AWS Lambda)?",
+    "antworten": [
+      "Es gibt physisch gar keine Server mehr im Internet.",
+      "Man mietet keine dauerhaft laufenden Server, sondern lädt nur Funktionen hoch. Der Cloud-Anbieter startet sie automatisch bei Bedarf und man zahlt nur für die Millisekunden der Ausführung.",
+      "Jeder Nutzer wird zu seinem eigenen Server."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Serverless ist genial für Aufgaben, die nicht ständig laufen. Wenn nachts niemand deine App nutzt, kostet dich dein Backend bei Serverless keinen Cent."
+  },
+  {
+    "id": 154,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was ist der Zweck von 'Rate Limiting' bei einer eigenen API?",
+    "antworten": [
+      "Die Bildqualität von Videos zu reduzieren.",
+      "Zu verhindern, dass ein Nutzer (oder Hacker) die API mit tausenden Anfragen pro Sekunde überflutet und den Server zum Absturz bringt (DDoS-Schutz).",
+      "Die API in andere Sprachen zu übersetzen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ohne Rate Limit könnte jemand ein Skript schreiben, das dein Login-Feld 10.000 Mal pro Sekunde testet. Das Rate Limit blockiert die IP nach z.B. 100 Versuchen."
+  },
+  {
+    "id": 155,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was ist der Unterschied zwischen vertikaler (Scale-up) und horizontaler Skalierung (Scale-out) bei Datenbanken?",
+    "antworten": [
+      "Vertikal bedeutet einen stärkeren Server (mehr RAM) zu kaufen. Horizontal bedeutet, die Daten auf viele kleinere, verbundene Server aufzuteilen.",
+      "Vertikal wird für Text genutzt, horizontal für Bilder.",
+      "Es gibt keinen Unterschied."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Relationale SQL-Datenbanken lassen sich oft nur teuer vertikal skalieren. NoSQL-Datenbanken sind darauf ausgelegt, leicht horizontal auf günstigen Server-Clustern skaliert zu werden."
+  },
+  {
+    "id": 156,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was beschreibt das 'N+1 Problem' in der Datenbankentwicklung?",
+    "antworten": [
+      "Ein Problem bei der Generierung von Passwörtern.",
+      "Einen Performance-Killer, bei dem eine App statt einer großen SQL-Abfrage versehentlich hunderte einzelne Abfragen in einer Schleife abfeuert.",
+      "Wenn eine Tabelle mehr als 10 Spalten hat."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Das passiert oft bei Frameworks (ORMs). Man holt 100 Artikel (1 Abfrage) und das System macht dann für jeden Artikel eine eigene Abfrage für den Autor (N Abfragen). Das zwingt die App in die Knie."
+  },
+  {
+    "id": 157,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Wofür nutzt man Datenbank-Migrationen (Migrations) in Projekten?",
+    "antworten": [
+      "Um eine Datenbank komplett zu löschen.",
+      "Als eine Art 'Git' (Versionskontrolle) für die Datenbankstruktur. Sie speichern als Code, wenn man z.B. eine neue Spalte zu einer Tabelle hinzufügt.",
+      "Um die Server-IP zu ändern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du im Team eine neue Spalte anlegst, sorgt das Migrations-Skript dafür, dass diese Spalte auch bei allen anderen Entwicklern und auf dem Live-Server automatisch erstellt wird."
+  },
+  {
+    "id": 158,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was ist 'Connection Pooling'?",
+    "antworten": [
+      "Ein Bereich im Server-Raum mit Wasserkühlung.",
+      "Eine Technik, bei der eine Menge von offenen Datenbankverbindungen wiederverwendet wird, statt für jede Nutzer-Anfrage zeitaufwändig eine neue Verbindung aufzubauen.",
+      "Das Verschlüsseln von WLAN-Passwörtern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Der Aufbau einer Datenbankverbindung dauert lang. Ein Pool hält z.B. immer 10 Leitungen offen. Wenn ein User Daten braucht, schnappt sich das Backend blitzschnell eine dieser Leitungen."
+  },
+  {
+    "id": 159,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Warum nutzen viele moderne Apps UUIDs (Universally Unique Identifiers) anstelle von Auto-Increment IDs (1, 2, 3...) als Primärschlüssel?",
+    "antworten": [
+      "Weil sie kürzer sind und Speicher sparen.",
+      "Weil UUIDs kryptisch sind (z.B. 123e4567-e89b-12d3-a456-426614174000) und es verhindern, dass Nutzer durch Ändern der URL in der Browserzeile einfach zum nächsten Datensatz springen können.",
+      "Weil alte Browser keine Zahlen unterstützen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn deine Rechnung die ID 5 hat, könnte jemand die URL auf /rechnung/6 ändern und die Rechnung einer anderen Person sehen. Eine UUID ist unmöglich zu erraten."
+  },
+  {
+    "id": 160,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist der Unterschied zwischen SSR (Server-Side Rendering) und CSR (Client-Side Rendering)?",
+    "antworten": [
+      "Es gibt keinen, es sind nur Synonyme.",
+      "Bei SSR baut der Server das fertige HTML zusammen und schickt es an den Browser. Bei CSR lädt der Browser ein leeres HTML-Dokument und baut die Seite mittels JavaScript selbst auf.",
+      "SSR nutzt CSS, CSR nutzt HTML."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "CSR (z.B. normales React) fühlt sich nach dem ersten Laden extrem schnell an. SSR (z.B. Next.js) ist jedoch viel besser für SEO, weil Suchmaschinen direkt fertigen Text sehen."
+  },
+  {
+    "id": 161,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist eine PWA (Progressive Web App)?",
+    "antworten": [
+      "Eine Webseite, die sich wie eine native App auf dem Handy installieren lässt, offline funktioniert und Push-Nachrichten senden kann.",
+      "Ein Grafikprogramm für Webdesigner.",
+      "Eine veraltete Form von Webseiten."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Mit einer PWA sparst du dir oft die teure Entwicklung für iOS und Android. Der Nutzer klickt auf 'Zum Startbildschirm hinzufügen' und hat deine Web-App als Icon auf dem Handy."
+  },
+  {
+    "id": 162,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was macht ein ORM (Object-Relational Mapper) wie Prisma oder Sequelize?",
+    "antworten": [
+      "Er optimiert Bilder für das Web.",
+      "Er übersetzt Code in eine andere Sprache.",
+      "Er erlaubt es Entwicklern, mit der Datenbank über normalen Code (z.B. JavaScript-Objekte) zu kommunizieren, anstatt komplexe SQL-Sätze von Hand tippen zu müssen."
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "Statt `SELECT * FROM User WHERE id=1` schreibst du im Code einfach `User.findById(1)`. Das beschleunigt die Entwicklung enorm und verhindert Fehler."
+  },
+  {
+    "id": 163,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist eine CLI (Command Line Interface)?",
+    "antworten": [
+      "Eine visuelle Benutzeroberfläche mit vielen bunten Buttons.",
+      "Ein reines Text-Interface (Kommandozeile/Terminal), über das Entwickler Befehle eintippen, um Server zu steuern, Code zu generieren oder Git zu nutzen.",
+      "Ein Stecker für Server."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Während normale Nutzer eine GUI (Graphical User Interface) bevorzugen, arbeiten Profi-Entwickler oft in der CLI, weil man dort Aufgaben rasend schnell automatisieren kann."
+  },
+  {
+    "id": 164,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist die Funktion eines CDN (Content Delivery Network)?",
+    "antworten": [
+      "Es ist ein riesiges Netzwerk von Servern weltweit, das statische Dateien (Bilder, Videos) immer vom geografisch nächsten Server an den Nutzer ausliefert.",
+      "Es scannt Mails nach Viren.",
+      "Es kompiliert Code auf dem Smartphone."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn dein Server in Berlin steht, lädt deine Seite in Japan sehr langsam. Ein CDN speichert Kopien deiner Bilder in Japan, wodurch die Seite für Japaner blitzschnell lädt."
+  },
+  {
+    "id": 165,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was sind 'Embeddings' im Kontext von Künstlicher Intelligenz?",
+    "antworten": [
+      "Kleine Computerchips.",
+      "Eine Methode, um Texte (oder Bilder) in lange Zahlenreihen (Vektoren) umzuwandeln, sodass der Computer die semantische Bedeutung und Ähnlichkeit von Konzepten mathematisch berechnen kann.",
+      "Das Einbetten von YouTube-Videos in HTML."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Embeddings sind das Geheimnis, warum KI versteht, dass 'König' und 'Königin' inhaltlich verwandt sind. Sie sind die Basis für jede intelligente Suchfunktion."
+  },
+  {
+    "id": 166,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Wofür werden Frameworks wie 'LangChain' beim Entwickeln von KI-Apps genutzt?",
+    "antworten": [
+      "Sie übersetzen Sprachen wie Spanisch in Englisch.",
+      "Sie helfen dabei, große Sprachmodelle (LLMs) mit externen Datenquellen, APIs und Speicher (Memory) zu verketten, um komplexe, mehrstufige KI-Agenten zu bauen.",
+      "Sie designen das Interface der App."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein nacktes LLM kann nur Text vorhersagen. Mit LangChain kannst du der KI beibringen: 'Lies zuerst dieses PDF, suche dann im Internet und fasse am Ende alles zusammen'."
+  },
+  {
+    "id": 167,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was steuert der Parameter 'Temperature' bei API-Anfragen an ein LLM (wie GPT oder Gemini)?",
+    "antworten": [
+      "Die Hitzeentwicklung auf dem Server des Anbieters.",
+      "Die Zufälligkeit und Kreativität der Antworten. Ein Wert von 0 macht die Antwort sehr deterministisch und faktisch, ein Wert von 1 sehr kreativ und variantenreich.",
+      "Die Wartezeit bis zur Antwort."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Für eine KI, die Code schreiben oder Fakten prüfen soll, stellt man die Temperature meist auf 0. Für eine KI, die Gedichte schreiben soll, eher auf 0.8."
+  },
+  {
+    "id": 168,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was macht man beim sogenannten 'Chunking', wenn man große Dokumente in eine Vektordatenbank laden will?",
+    "antworten": [
+      "Man löscht alle Vokale aus dem Text.",
+      "Man zerschneidet sehr lange Texte in kleinere, sinnvolle Abschnitte (Chunks), damit die KI bei einer Suche nur den relevanten Absatz findet und nicht das gesamte Buch auf einmal verarbeiten muss.",
+      "Man übersetzt den Text in Code."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Da KIs Token-Limits haben, ist Chunking essenziell. Sucht jemand nach einem Vertragsparagraphen, liefert das System nur diesen einen kleinen Text-Chunk an das Sprachmodell."
+  },
+  {
+    "id": 169,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Wie trennst du in einer guten KI-App-Architektur den 'System Prompt' vom 'User Prompt'?",
+    "antworten": [
+      "Beides wird in dasselbe Eingabefeld getippt.",
+      "Der System Prompt wird fest im Backend codiert (definiert Regeln und Einschränkungen) und ist unsichtbar. Der User Prompt ist das, was der Nutzer vorne im Chatfenster eingibt.",
+      "Es gibt keine Trennung."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Dies ist die wichtigste Sicherheitsmaßnahme in der KI-Entwicklung. Du musst sicherstellen, dass die Nutzer-Eingaben niemals die hart codierten Regeln deines System-Prompts überschreiben können."
+  },
+[
+  {
+    "id": 170,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Warum nutzen Entwickler CSS-Variablen (Custom Properties, z.B. var(--main-color)) anstatt feste Farbcodes zu schreiben?",
+    "antworten": [
+      "Weil alte Browser keine Farbcodes verstehen.",
+      "Damit man einen Wert (wie die Primärfarbe) an einer zentralen Stelle definiert. Ändert sich das Corporate Design, muss man nur eine Zeile statt 500 anpassen.",
+      "Um den Code vor Suchmaschinen zu verstecken."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "CSS-Variablen sind ein Gamechanger, besonders wenn man z.B. einen 'Dark Mode' für seine Web-App bauen möchte. Man tauscht einfach zentral die Farb-Variablen aus."
+  },
+  {
+    "id": 171,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was ist der Zweck von ARIA-Attributen (z.B. aria-hidden=\"true\" oder aria-label=\"Menü\") in HTML?",
+    "antworten": [
+      "Sie verbessern die Barrierefreiheit, indem sie Screenreadern (für blinde Nutzer) zusätzliche Kontext-Informationen geben, die visuell nicht sofort sichtbar sind.",
+      "Sie erstellen automatische Übersetzungen der Webseite.",
+      "Sie formatieren Text fett oder kursiv."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Wenn du einen Button hast, der nur aus einem 'X'-Icon besteht, weiß ein blinder Nutzer nicht, was das ist. Ein 'aria-label=\"Schließen\"' löst dieses Problem."
+  },
+  {
+    "id": 172,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Was beschreibt 'Event Bubbling' in JavaScript?",
+    "antworten": [
+      "Das schnelle Aufploppen von Pop-ups.",
+      "Ein Klick-Event auf ein tief verschachteltes Element (z.B. ein Span) wird auch an alle übergeordneten Elemente (Button, Div, Body) weitergeleitet (es 'blubbert' nach oben).",
+      "Das Löschen von Events aus dem Speicher."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Bubbling ist wichtig zu verstehen. Manchmal klickst du auf ein Kind-Element und wunderst dich, warum plötzlich das Eltern-Element auch eine Aktion ausführt. Mit 'event.stopPropagation()' kann man das stoppen."
+  },
+  {
+    "id": 173,
+    "kategorie": "Webentwicklung",
+    "level": 2,
+    "frage": "Warum wechseln viele Teams von nativem JavaScript zu 'TypeScript'?",
+    "antworten": [
+      "Weil TypeScript von Google ist.",
+      "Weil TypeScript strenge Datentypen erzwingt. Der Editor warnt dich sofort beim Tippen, wenn du z.B. versuchst, Text mit Zahlen zu multiplizieren, statt erst zur Laufzeit abzustürzen.",
+      "Weil JavaScript bald abgeschaltet wird."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "TypeScript ist quasi JavaScript mit einem Schutzschild. Es muss vor dem Release zwar in normales JavaScript kompiliert werden, verhindert aber massenhaft ärgerliche Bugs."
+  },
+  {
+    "id": 174,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was macht das Konzept 'Destructuring' in modernem JavaScript?",
+    "antworten": [
+      "Es löscht versehentlich ganze Datenbanken.",
+      "Es erlaubt dir, spezifische Werte aus einem Objekt oder Array elegant und in einer einzigen Zeile direkt in eigene Variablen zu 'entpacken' (z.B. const { name, age } = user).",
+      "Es komprimiert den Code zu unleserlichen Zeichenketten."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Destructuring macht den Code viel lesbarer, da man nicht ständig 'user.name', 'user.age', 'user.email' schreiben muss, sondern die Variablen direkt extrahiert."
+  },
+  {
+    "id": 175,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Wofür nutzt man den 'Spread-Operator' (drei Punkte: ...) in Arrays oder Objekten?",
+    "antworten": [
+      "Um den Code zu pausieren.",
+      "Um den Inhalt eines Arrays oder Objekts 'auszupacken' und in ein neues Array oder Objekt zu kopieren (z.B. [...altesArray, neuerWert]).",
+      "Um Kommentare über mehrere Zeilen zu strecken."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "In Frameworks wie React darfst du bestehende Daten oft nicht direkt verändern (Immutability). Mit dem Spread-Operator baust du rasend schnell Kopien mit deinen Änderungen."
+  },
+  {
+    "id": 176,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was zeichnet eine sogenannte 'Pure Function' (Reine Funktion) aus?",
+    "antworten": [
+      "Sie enthält keine Kommentare.",
+      "Sie liefert bei gleichen Eingabewerten immer exakt das gleiche Ergebnis und verändert keine Daten außerhalb der Funktion (keine Side-Effects).",
+      "Sie ist ausschließlich für Frontend-Design zuständig."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Pure Functions sind extrem leicht zu testen, da sie nicht von Datenbank-Abfragen oder dem aktuellen Zustand der App abhängig sind. Die Logik ist zu 100% vorhersagbar."
+  },
+  {
+    "id": 177,
+    "kategorie": "Code",
+    "level": 2,
+    "frage": "Was ist ein 'Ternärer Operator' (Bedingung ? Wert1 : Wert2)?",
+    "antworten": [
+      "Eine sehr kurze Schreibweise für eine if-else-Anweisung, die oft direkt in Variablen-Zuweisungen oder beim Rendern von UI-Elementen genutzt wird.",
+      "Ein Algorithmus zum Verschlüsseln von Passwörtern.",
+      "Ein Befehl, um Server neu zu starten."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Beispiel: `const buttonText = isLoggedIn ? 'Logout' : 'Login';`. Das spart viel Platz im Vergleich zu einem mehrzeiligen if-else-Block."
+  },
+  {
+    "id": 178,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist eine 'Staging-Umgebung' (Staging Environment)?",
+    "antworten": [
+      "Ein Konferenzraum für Entwickler.",
+      "Eine exakte Kopie der Live-Server-Umgebung, auf der der neue Code unter realen Bedingungen getestet wird, bevor echte Nutzer ihn zu sehen bekommen.",
+      "Ein Tool zum Zeichnen von Datenbanken."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Man testet Features lokal (Development), dann auf dem Staging-Server (Kopie der Realität) und erst wenn dort alles klappt, geht der Code auf den Produktivserver (Production)."
+  },
+  {
+    "id": 179,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was unterscheidet in Git einen 'Rebase' von einem klassischen 'Merge'?",
+    "antworten": [
+      "Ein Rebase löscht alle Commits.",
+      "Beim Rebase wird die Historie linear neu geschrieben, als hättest du deinen Code direkt an die Spitze der aktuellen Hauptversion angehängt. Beim Merge bleibt ein verästelter Verlauf sichtbar.",
+      "Rebase funktioniert nur ohne Internetverbindung."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Rebase sorgt für eine sehr saubere und leicht lesbare Projekt-Historie, kann aber gefährlich sein, wenn man ihn auf Branches anwendet, an denen bereits mehrere Personen arbeiten."
+  },
+  {
+    "id": 180,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Wofür nutzt man 'Feature Toggles' (oder Feature Flags)?",
+    "antworten": [
+      "Um zwischen hellem und dunklem Design zu wechseln.",
+      "Um unfertigen Code schon in die Live-Version hochladen zu können, die Funktion aber über einen Schalter (im Backend) für die Nutzer unsichtbar zu lassen.",
+      "Um die App schneller laufen zu lassen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Feature Flags erlauben es, dass der Code eines großen Features schon Woche für Woche integriert wird, ohne dass es 'kaputt' online ist. Zum Release legt man einfach den Schalter um."
+  },
+  {
+    "id": 181,
+    "kategorie": "Softwareentwicklung",
+    "level": 2,
+    "frage": "Was ist der Hauptnutzen von 'Docker Compose' im Vergleich zum normalen Docker?",
+    "antworten": [
+      "Es komponiert automatisch Musik für die App.",
+      "Es erlaubt dir, eine App, die aus mehreren separaten Containern besteht (z.B. Frontend, Backend UND Datenbank), mit einem einzigen Befehl komplett hochzufahren.",
+      "Es schreibt Code von alleine."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Statt jeden Service einzeln im Terminal zu starten, liest Docker Compose eine Konfigurationsdatei (docker-compose.yml) und startet dein gesamtes lokales Entwicklungs-Universum auf einen Schlag."
+  },
+  {
+    "id": 182,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Warum verwenden einige Entwickler GraphQL anstelle klassischer REST-APIs?",
+    "antworten": [
+      "Weil GraphQL automatisch Grafiken erstellt.",
+      "Weil das Frontend bei GraphQL exakt definieren kann, welche Daten es braucht (z.B. nur den Namen), wodurch Übertragung von unnötigen Daten (Overfetching) vermieden wird.",
+      "Weil GraphQL sicherer gegen Hacker ist."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Bei REST musst du oft 5 verschiedene Endpunkte aufrufen, um Profil, Freunde und Posts eines Users zu laden. GraphQL lädt das alles maßgeschneidert mit einer einzigen Anfrage."
+  },
+  {
+    "id": 183,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Welchen HTTP 'Content-Type' musst du zwingend nutzen, wenn ein Nutzer über ein Formular Dateien (z.B. Bilder) an dein Backend hochladen will?",
+    "antworten": [
+      "application/json",
+      "text/html",
+      "multipart/form-data"
+    ],
+    "korrekteAntwortIndex": 2,
+    "erklaerung": "JSON ist toll für Textdaten, kann aber keine physischen Dateien effizient übertragen. 'multipart/form-data' zerstückelt die Bilddatei in Pakete und schickt sie sicher zum Server."
+  },
+  {
+    "id": 184,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was ist der Unterschied zwischen den HTTP-Statuscodes 401 (Unauthorized) und 403 (Forbidden)?",
+    "antworten": [
+      "Es gibt keinen Unterschied.",
+      "401 heißt: 'Ich weiß nicht, wer du bist (Bitte einloggen)'. 403 heißt: 'Ich weiß, wer du bist, aber du hast nicht die Admin-Rechte, um das zu tun'.",
+      "401 ist für den Server, 403 für das Frontend."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Ein regulärer Nutzer erhält 403, wenn er versucht, eine fremde Rechnung zu löschen. Ein nicht eingeloggter Gast erhält einen 401, wenn er versucht, sein Profil anzusehen."
+  },
+  {
+    "id": 185,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was beschreibt 'Dependency Injection' in der Backend-Architektur?",
+    "antworten": [
+      "Das Einspielen von Viren in den Code.",
+      "Ein Design-Pattern, bei dem eine Klasse ihre Abhängigkeiten (z.B. die Datenbankverbindung) von außen übergeben bekommt, statt sie selbst im Code fest zu erstellen.",
+      "Das automatische Update von NPM-Paketen."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Dieses Pattern ist Gold wert für automatisierte Tests. Du kannst dem Code beim Testen einfach eine 'Fake-Datenbank' (Mock) injizieren, ohne den eigentlichen Code ändern zu müssen."
+  },
+  {
+    "id": 186,
+    "kategorie": "Backend",
+    "level": 2,
+    "frage": "Was ist ein 'Cronjob'?",
+    "antworten": [
+      "Ein Tool, um CSS zu formatieren.",
+      "Ein zeitbasierter Task-Scheduler auf dem Server, der Skripte automatisch zu festgelegten Zeiten (z.B. jeden Freitag um 20 Uhr Rechnungen versenden) ausführt.",
+      "Ein Sicherheitsprotokoll."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Cronjobs nehmen dir die manuelle Arbeit ab. Du definierst den Rhythmus (oft durch Sterne wie '0 12 * * *' dargestellt) und der Server erledigt die Aufgabe pünktlich im Hintergrund."
+  },
+  {
+    "id": 187,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Wie schützt man seine Datenbank am effektivsten gegen SQL-Injection-Angriffe?",
+    "antworten": [
+      "Indem man den Server vom Internet trennt.",
+      "Durch die Nutzung von 'Prepared Statements'. Diese trennen die SQL-Logik strikt von der Nutzereingabe, sodass eingegebener Text niemals als ausführbarer Code behandelt wird.",
+      "Indem man alle Passwörter verschlüsselt."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Prepared Statements (oder moderne ORMs) übermitteln den SQL-Befehl und die Daten (den Text) in getrennten Paketen an die Datenbank. So haben Angreifer keine Chance."
+  },
+  {
+    "id": 188,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was versteht man unter 'Soft Delete' bei Datenbank-Einträgen?",
+    "antworten": [
+      "Die Festplatte physisch weich zu lagern.",
+      "Der Datensatz wird nicht komplett aus der Datenbank gelöscht, sondern nur in einer Spalte als 'gelöscht' markiert (z.B. deleted_at = aktuelles Datum).",
+      "Das Löschen von Daten durch Administratoren."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Oft dürfen oder wollen Firmen Daten nicht endgültig löschen (z.B. wegen Rechnungsverläufen). Die App filtert dann einfach Einträge heraus, die eine 'Soft Delete'-Markierung haben."
+  },
+  {
+    "id": 189,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Was passiert in SQL bei der Regel 'ON DELETE CASCADE' bei Fremdschlüsseln (Foreign Keys)?",
+    "antworten": [
+      "Das Löschen wird blockiert.",
+      "Wenn ein Hauptdatensatz (z.B. ein Nutzer) gelöscht wird, werden automatisch auch alle damit verknüpften Einträge (z.B. seine Posts und Kommentare) in anderen Tabellen gelöscht.",
+      "Die Datenbank erstellt ein automatisches Backup."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Cascading Deletes verhindern 'Daten-Leichen' (verwaiste Einträge). Ohne diese Regel hättest du später Kommentare in der Tabelle, die zu keinem existierenden Nutzer mehr gehören."
+  },
+  {
+    "id": 190,
+    "kategorie": "Datenbanken",
+    "level": 2,
+    "frage": "Wie implementiert man am effizientesten 'Pagination' (Seitennummerierung, z.B. Seite 1, 2, 3) in SQL?",
+    "antworten": [
+      "Man lädt alle 10.000 Einträge in die Web-App und blendet 9.990 davon mit CSS aus.",
+      "Mit den Befehlen LIMIT (wie viele Einträge maximal geladen werden) und OFFSET (wie viele Einträge übersprungen werden sollen).",
+      "Man teilt die Datenbank in mehrere kleine Tabellen auf."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Für Seite 3 bei 20 Einträgen pro Seite sagt die API: 'Hole LIMIT 20, OFFSET 40'. Das spart gigantische Mengen an Server-Ressourcen und Ladezeit, weil wirklich nur 20 Datenzeilen wandern."
+  },
+  {
+    "id": 191,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist eine 'XSS' (Cross-Site Scripting) Attacke?",
+    "antworten": [
+      "Der Server wird mit Anfragen überlastet.",
+      "Ein Hacker schleust bösartigen JavaScript-Code über Eingabefelder (z.B. Kommentare) ein, der dann von den Browsern anderer Nutzer beim Lesen ausgeführt wird.",
+      "Das heimliche Mining von Kryptowährungen auf fremden Servern."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du erlaubst, dass Nutzer `<script>`-Tags in ihre Kommentare schreiben, und du diesen Text ungefiltert anderen anzeigst, kann der Hacker z.B. deren Session-Cookies stehlen."
+  },
+  {
+    "id": 192,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was bezeichnet 'CSRF' (Cross-Site Request Forgery)?",
+    "antworten": [
+      "Das Kopieren von Web-Designs.",
+      "Ein Angriff, bei dem ein ahnungsloser Nutzer dazu gebracht wird, ungewollt eine Anfrage an eine Web-App zu senden, bei der er aktuell eingeloggt ist (z.B. über einen präparierten Link).",
+      "Ein Fehler beim Laden von Schriftarten."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Beispiel: Du bist bei deiner Bank eingeloggt, klickst auf einer dubiosen Seite auf einen Button und im Hintergrund überweist dein Browser Geld, weil die Session noch aktiv war. 'Anti-CSRF Tokens' verhindern dies."
+  },
+  {
+    "id": 193,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist ein 'Headless CMS' (wie z.B. Strapi oder Contentful)?",
+    "antworten": [
+      "Ein Content Management System, das keine Benutzeroberfläche hat.",
+      "Ein CMS, das nur für das Backend und die Datenspeicherung zuständig ist und die Inhalte rein per API ausliefert. Es diktiert kein bestimmtes Frontend/Design (wie es WordPress tut).",
+      "Ein veraltetes System."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "'Headless' (ohne Kopf/Frontend) bedeutet maximale Freiheit. Du kannst deine Blogbeiträge in dem CMS schreiben und per API in eine React-Website, eine iOS-App und eine Smartwatch gleichzeitig laden."
+  },
+  {
+    "id": 194,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Was ist ein 'Polyfill' in der Webentwicklung?",
+    "antworten": [
+      "Ein Material zum Ausfüllen von Server-Schränken.",
+      "Ein Stück Code (meist JavaScript), das moderne Funktionalitäten bereitstellt, damit sie auch in älteren Browsern funktionieren, die diese Features nativ noch nicht unterstützen.",
+      "Ein Werkzeug zum Komprimieren von Videos."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Wenn du brandneue JavaScript-Befehle nutzt, stürzt die Seite auf alten Browsern ab. Ein Polyfill erkennt das und schiebt dem alten Browser eine handgeschriebene Ersatz-Logik unter."
+  },
+  {
+    "id": 195,
+    "kategorie": "Coding Glossar",
+    "level": 2,
+    "frage": "Welche Revolution brachte 'WebAssembly' (Wasm) in den Browser?",
+    "antworten": [
+      "Es erlaubt, hochperformanten Code aus Sprachen wie C, C++ oder Rust direkt im Browser des Nutzers mit nahezu nativer Geschwindigkeit auszuführen.",
+      "Es generiert automatisch HTML aus Sprache.",
+      "Es ersetzt das Internetprotokoll HTTP."
+    ],
+    "korrekteAntwortIndex": 0,
+    "erklaerung": "Früher lief im Browser nur JavaScript. WebAssembly öffnete die Tür dafür, dass man ganze 3D-Videospiele oder aufwendige Videoschnitt-Programme direkt auf einer Webseite betreiben kann."
+  },
+  {
+    "id": 196,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was meint man mit 'Function Calling' (oder Tool Use) bei modernen LLMs (Sprachmodellen)?",
+    "antworten": [
+      "Die KI ruft dich auf dem Smartphone an.",
+      "Man bringt der KI bei, eigene App-Funktionen (wie 'Wetter abrufen()') anzufordern, anstatt nur Text zu generieren. Die App führt die Funktion aus und gibt das Ergebnis an die KI zurück.",
+      "Das Schreiben von Funktionen durch die KI."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Dadurch wird KI handlungsfähig! Wenn du fragst 'Wie wird das Wetter heute?', merkt die KI, dass ihr aktuelles Wissen nicht reicht, und löst stattdessen deine Wetter-API-Funktion aus."
+  },
+  {
+    "id": 197,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Welche Wirkung hat die Prompting-Technik 'Chain of Thought' (CoT)?",
+    "antworten": [
+      "Die KI wird gesperrt.",
+      "Indem man die KI auffordert, 'Schritt für Schritt' zu denken, zwingt man das Modell, seine Zwischenrechnungen und Logik zu dokumentieren, was die Genauigkeit komplexer Aufgaben dramatisch erhöht.",
+      "Die KI generiert nur sehr kurze Antworten."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "KIs machen oft Fehler bei Mathe oder Logikrätseln, wenn sie die Antwort direkt in einem Token ausspucken müssen. Erlaubt man ihnen den 'Denkprozess' auszuschreiben, werden sie schlauer."
+  },
+  {
+    "id": 198,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was ist eine Vektordatenbank (z.B. Pinecone, Weaviate)?",
+    "antworten": [
+      "Eine Datenbank, die nur Pfeile speichern kann.",
+      "Eine spezialisierte Datenbank, die Daten als mathematische Vektoren speichert. Sie ist optimiert dafür, inhaltlich ähnliche Texte (Semantische Suche) extrem schnell zu finden.",
+      "Eine extrem veraltete Form der Datenspeicherung."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Normale Datenbanken suchen nach exakten Stichwörtern. Vektordatenbanken 'verstehen', dass 'Hund' und 'Welpe' zusammengehören, weil ihre mathematischen Vektoren nah beieinander liegen."
+  },
+  {
+    "id": 199,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Was unterscheidet einen autonomen 'KI-Agenten' von einem simplen KI-Chatbot?",
+    "antworten": [
+      "Agenten kosten kein Geld.",
+      "Ein Chatbot antwortet nur auf einen direkten Prompt. Ein Agent bekommt ein globales Ziel, plant selbstständig Zwischenschritte und nutzt Werkzeuge, um dieses Ziel ohne Nutzerhilfe zu erreichen.",
+      "Agenten sind immer in Hardware-Roboter eingebaut."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Agentic AI ist die Zukunft. Gibst du dem Agenten den Befehl 'Plane meinen Urlaub', googelt er selbstständig, bucht die Flüge, trägt sie in deinen Kalender ein und meldet Vollzug."
+  },
+  {
+    "id": 200,
+    "kategorie": "KI",
+    "level": 2,
+    "frage": "Warum ist 'Bias' (Verzerrung / Voreingenommenheit) in KI-Modellen ein großes Problem?",
+    "antworten": [
+      "Es macht die App zu langsam.",
+      "Weil KIs Muster aus historischen Trainingsdaten lernen. Enthielten diese Daten menschliche Vorurteile (z.B. Sexismus im Recruiting), wird die KI diese Vorurteile unbemerkt übernehmen und verstärken.",
+      "Weil die KI dann falsche Programmiersprachen lernt."
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Als Entwickler musst du extrem aufpassen. Wenn eine Firma eine KI nutzt, um Bewerbungen vorzusortieren, und das Modell biased ist, kann das Unternehmen verklagt werden."
+  },
+  {
+    "id": 201,
+    "kategorie": "Webentwicklung",
+    "level": 3,
+    "frage": "Ein großes E-Commerce-Projekt hat massive Core Web Vitals-Probleme (LCP > 4s, CLS > 0.25). Du entdeckst, dass das Hero-Bild 8MB groß ist. Welche Multi-Layer-Strategie ist technisch am sinnvollsten?",
+    "antworten": [
+      "Das Bild einfach in WebP konvertieren und hochladen",
+      "WebP-Format mit picture-Element, Image CDN mit adaptive Sizing, lazy-loading, und Preload-Hints kombinieren",
+      "Das komplette Hero-Section durch CSS-Gradient ersetzen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Professionelle Performance-Optimierung erfordert mehrere Schichten: WebP ist komprimierter, picture-Element ermöglicht Format-Fallbacks, Image CDN resized für verschiedene Devices, lazy-loading verschiebt nicht-sichtbare Bilder, Preload-Hints priorisieren kritische Ressourcen."
+  },
+  {
+    "id": 202,
+    "kategorie": "Webentwicklung",
+    "level": 3,
+    "frage": "Dein Team baut ein hochfrequentiertes Echtzeit-Collab-Tool (wie Figma). Welche Architektur-Entscheidung zwischen WebSockets und Long-Polling mit konfliktfreier Synchronisation ist richtig?",
+    "antworten": [
+      "WebSockets für alle Operationen, kein Conflict-Management nötig",
+      "WebSockets mit Operational Transformation (OT) oder CRDTs (Conflict-free Replicated Data Types) um gleichzeitige Edits zu reconcilieren",
+      "Long-Polling mit pessimistischen Locks auf dem Backend"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "WebSockets allein reichen nicht. Bei mehreren gleichzeitigen Änderungen braucht man Algorithmen wie OT (Google Docs) oder CRDTs (lokale Veränderungen, keine Locks), um Daten konsistent zu halten."
+  },
+  {
+    "id": 203,
+    "kategorie": "Webentwicklung",
+    "level": 3,
+    "frage": "Du stellst fest, dass deine React-App mit 50.000 DOM-Elementen lahmt. Welche Virtualisierungs-Strategie kombiniert man für maximale Performance?",
+    "antworten": [
+      "Einfach den State in Zustand Management verschieben",
+      "Windowing/Virtualisierung (nur sichtbare Items rendern) + useMemo für teure Berechnungen + React.memo für Items + Intersection Observer für Lazy-Loading",
+      "Die komplette Liste in eine einzelne Canvas zeichnen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Nur ca. 20 Items sind sichtbar, 49.980 sind unnötig im DOM. Windowing rendet nur sichtbare Elemente, useMemo cached teure Funktionen, React.memo verhindert Re-renders, Intersection Observer lädt neue Elemente on-scroll."
+  },
+  {
+    "id": 204,
+    "kategorie": "Webentwicklung",
+    "level": 3,
+    "frage": "Du definierst ein Design-System mit Komponenten-Bibliotheken (Storybook). Was ist die beste Strategie für Cross-Browser-Kompatibilität und Regression-Tests?",
+    "antworten": [
+      "Nur in Chrome testen, der Rest wird schon passen",
+      "Visual Regression Testing (Percy, Chromatic) + Automated Accessibility Audits + Cross-Browser Testing (BrowserStack) in der CI/CD Pipeline",
+      "Manuelle Tests auf 20 verschiedenen Browsern"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Professionelle Design-Systeme nutzen: Visual Regression Tools (Screenshots), Accessibility-Checks (a11y), Automated Cross-Browser-Tests in CI/CD - sonst kriegt man nicht mit, wenn jemand ein Layout bricht."
+  },
+  {
+    "id": 205,
+    "kategorie": "Webentwicklung",
+    "level": 3,
+    "frage": "Du baust eine PWA mit Offline-Funktionalität. Welche Strategie für Cache-Invalidation und State-Sync ist Production-ready?",
+    "antworten": [
+      "Alles in localStorage speichern, problemlos",
+      "Service Worker mit Cache-First/Stale-While-Revalidate-Strategien + Sync-Tag API für Background Sync + lokale Queueing von Mutations bei Offline",
+      "Die App funktioniert eh nur online"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "PWAs brauchen mehrere Schichten: Service Worker Strategien für verschiedene Ressourcentypen, Background Sync um verloren gegangene Requests zu re-versuchen wenn online, lokale Queueing um Nutzer-Aktionen offline zu sammeln und später zu synchen."
+  },
+  {
+    "id": 206,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Du reviewst Code in dem ein Junior `useCallback` in JEDEM Funktions-Component nutzt. Was ist der häufigste Performance-Fehler dabei?",
+    "antworten": [
+      "useCallback ist immer gut, je mehr desto besser",
+      "Unnötige useCallback-Dependencies verursachen more Re-Renders als sie verhindern. Memoization sollte gezielt für echte Performance-Probleme eingesetzt werden",
+      "Die Syntax von useCallback ist zu kompliziert"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Premature Optimization ist eine Falle. useCallback hat Overhead durch Dependency-Comparisons. Man sollte erst Profiling machen (React DevTools), dann gezielt memoizen wo nötig."
+  },
+  {
+    "id": 207,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Dein TypeScript-Projekt hat komplexe Generic-Types für API-Responses. Welche Strategie verhindert Type-Unsicherheit bei Polymorphismen?",
+    "antworten": [
+      "Einfach 'any' für komplexe Types nutzen",
+      "Discriminated Unions (Tagged Unions) mit exhaustive type-checking + Conditional Types für Type-Safe API-Handling",
+      "Alles als JSON-String speichern"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Discriminated Unions ermöglichen Type-Safe Pattern Matching. Beispiel: type Result = {success: true, data: T} | {success: false, error: E}. Der TypeScript Compiler erzwingt, dass man alle Cases handled."
+  },
+  {
+    "id": 208,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Welche Architektur ist Production-ready für Error-Handling in asynchronen Operationen (API-Calls, DB-Queries)?",
+    "antworten": [
+      "try-catch überall, einfach",
+      "Typed Error-Handling mit Result Types, Error-Boundaries für React, Structured Logging mit Context (Request-ID) + Retry-Strategien (exponential backoff) mit Circuit Breakers",
+      "Einfach hoffen dass nichts schief geht"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Production-Grade Error-Handling: Result<T,E> Types statt exceptions, React Error Boundaries für UI-Fehler, Structured Logging mit Tracing-Context, Retry-Logic mit exponential backoff und Circuit Breaker um Cascade-Fehler zu verhinden."
+  },
+  {
+    "id": 209,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Du merkst dass dein Node.js-Server unter Memory-Leaks leidet. Welche Diagnose- und Preventions-Strategie ist effektiv?",
+    "antworten": [
+      "Den Server einfach täglich neu starten",
+      "Heap-Snapshots mit Chrome DevTools/clinic.js zur Diagnose, Event-Listener cleanup, Stream-Fehlerbehandlung, Profiling in Production mit APM-Tools (NewRelic/Datadog)",
+      "JavaScript hat eh automatische Memory-Verwaltung, nicht wichtig"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Memory-Leaks in Node entstehen durch: nicht entfernte Event-Listener, Stream-Fehler die nicht abgefangen werden, zirkuläre Referenzen. Diagnose mit Heap-Dumps, Prevention durch rigorous cleanup und Monitoring mit APM."
+  },
+  {
+    "id": 210,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Du baust eine Strict-Mode Observable Library mit RxJS. Welches Konzept verhindert Common Memory-Leaks?",
+    "antworten": [
+      "Einfach überall subscribe() nutzen",
+      "Unsubscribe-Management via takeUntil, async Pipe in Angular, oder Subscription cleanup in useEffect + Error-Boundaries für Observables",
+      "Observables sind stateless, kein Problem"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "RxJS ist super, aber ein häufiger Fehler: subscribe ohne unsubscribe führt zu Memory-Leaks. Best Practice: takeUntil mit Subject, async Pipe (auto-unsubscribe), oder in useEffect return Cleanup."
+  },
+  {
+    "id": 211,
+    "kategorie": "Softwareentwicklung",
+    "level": 3,
+    "frage": "Du designst die Architecture für ein Monorepo mit 20+ Apps. Welche Strategie für Dependency Management, Versioning und Releases ist skalierbar?",
+    "antworten": [
+      "Jede App mit eigenem package.json und Versioning",
+      "Lerna/Nx für Monorepo-Orchestrierung, Workspaces, Dependency-Graph Analysis, Conventional Commits für automatische Versioning (Semantic Release), und Filtered Builds/Tests basierend auf Changes",
+      "Ein riesiges package.json für alles"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Skalierbare Monorepos nutzen: Nx/Lerna für Dependency-Resolution und isolated Builds, Conventional Commits für automatische Versioning, Dependency-Graphing um nur affektierte Packages zu testen/deployen."
+  },
+  {
+    "id": 212,
+    "kategorie": "Softwareentwicklung",
+    "level": 3,
+    "frage": "Dein Team hat keine einheitliche Code-Quality-Standards. Welche Tool-Chain für automatisiertes Linting, Type-Checking und Formatting ist professionell?",
+    "antworten": [
+      "ESLint + Prettier ist overkill",
+      "ESLint + Prettier + TypeScript strict mode + Pre-commit Hooks (Husky) + Automated CI-Checks + IDE Integration",
+      "Code-Reviews sind ausreichend"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Professional Code-Quality: ESLint für Logik-Fehler, Prettier für Konsistenz (schönere Diffs), TypeScript strict mode für Type-Safety, Pre-commit Hooks um Commits mit Violations zu verhindern, CI-Gate um failed Builds zu blocken."
+  },
+  {
+    "id": 213,
+    "kategorie": "Softwareentwicklung",
+    "level": 3,
+    "frage": "Wie designt man eine Feature-Flag-Infrastruktur für sichere Canary-Deployments in Production?",
+    "antworten": [
+      "Environment-Variable setzen und redeploy",
+      "Feature-Flag Service (LaunchDarkly/Split) mit Audience Targeting, A/B Testing Support, Real-Time Analytics und Kill-Switches, integriert in Logger/Tracing für Impact-Analyse",
+      "Feature Flags sind nicht nötig mit Kubernetes"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Production-ready Feature-Flags: Service statt Env-Vars, Audience Targeting (5% USA, 10% Beta-Users), Real-Time Analytics um Impact zu sehen, Kill-Switch um schnell zu rollback, Integration mit Tracing um Performance-Impact zu messen."
+  },
+  {
+    "id": 214,
+    "kategorie": "Softwareentwicklung",
+    "level": 3,
+    "frage": "Welche Strategie für Database Migrations mit Zero-Downtime Deployments ist sicher?",
+    "antworten": [
+      "Migration + Deploy gleichzeitig",
+      "Expand-Contract Pattern: neue Spalte HINZUFÜGEN (deploy), alten Code updaten, alte Spalte ENTFERNEN. Rollbacks sind sicher weil alte Code/Datenbank kompatibel bleiben",
+      "Datenbank-Locks sind ok, Nutzer können warten"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Zero-Downtime Migrationen brauchen Expand-Contract: Phase 1 - Datenbank-Schema erweitern (additive), Phase 2 - Code updaten, Phase 3 - Altes entfernen. Jede Phase ist separat deploybar und rollback-safe."
+  },
+  {
+    "id": 215,
+    "kategorie": "Backend",
+    "level": 3,
+    "frage": "Du designst eine Caching-Strategie für einen massiven E-Commerce Backend mit Redis. Welches Pattern verhindert Cache-Invalidation-Probleme?",
+    "antworten": [
+      "Alles cachen, TTL = infinity",
+      "Time-Based TTLs + Event-Driven Invalidation (message queue notification bei data change) + Cache-Aside Pattern mit probabilistic graceful degradation (fallback bei miss)",
+      "Caching ist zu kompliziert, nicht nutzen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Solid Redis-Caching: TTLs (nicht infinity), Event-Driven Invalidation (bei Updates message publishen), Cache-Aside (check cache, miss -> DB fetch, update cache), Graceful Degradation (bei Cache-Crash fallback zu DB)."
+  },
+  {
+    "id": 216,
+    "kategorie": "Backend",
+    "level": 3,
+    "frage": "Welche Architektur für Rate-Limiting bei API-Gateways ist Distributed-System-ready?",
+    "antworten": [
+      "Einfach Counter im RAM incremenieren",
+      "Token-Bucket oder Sliding-Window mit Redis als centralized Backend, kurze TTLs, und Graceful Degradation bei Redis-Outage",
+      "Jeder Server hat seinen eigenen Rate-Limiter"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Distributed Rate-Limiting: centralized Redis statt lokale Counters (sonst kann jeder Service einen anderen Limit-Stand haben), Token-Bucket for smooth burst-handling, TTLs um memory zu sparen, Fallback-Mode wenn Redis down ist."
+  },
+  {
+    "id": 217,
+    "kategorie": "Backend",
+    "level": 3,
+    "frage": "Du musst ACID-Garantien über mehrere Microservices hinweg sichern. Welche Pattern ist robust?",
+    "antworten": [
+      "Distributed Transactions mit 2-Phase-Commit",
+      "Saga Pattern mit Compensating Transactions (Choreography oder Orchestration), idempotentes Design, und Monitoring für verwaiste Transaktionen",
+      "Akzeptiere Inkonsistenzen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Saga Pattern: lange Transactions in kleine Steps zerlegen, jeder Step ist lokal ACID. Wenn Step 3 fehlschlägt, führe Compensations aus (undo Step 2, Step 1). Idempotenz macht Retries safe."
+  },
+  {
+    "id": 218,
+    "kategorie": "Backend",
+    "level": 3,
+    "frage": "Welche Strategie für Bulk-Operations mit Backpressure-Handling ist nicht memory-intensive?",
+    "antworten": [
+      "Alles in ein Array laden und verarbeiten",
+      "Stream-Processing mit Backpressure (readable.pause/resume), Batching, und Exponential Backoff bei Errors",
+      "One-by-one Processing ohne Batching, schneller"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Stream-Processing mit Backpressure: Producer signalisiert wenn Queue voll ist, downstream pausiert. Batching reduziert round-trips. Exponential Backoff verhindert CPU-Thrashing bei Errors. Memory bleibt constant."
+  },
+  {
+    "id": 219,
+    "kategorie": "Backend",
+    "level": 3,
+    "frage": "Dein GraphQL API hat N+1 Query-Probleme. Welche DataLoader-Strategie ist standard?",
+    "antworten": [
+      "Query-Optimierung im Frontend",
+      "DataLoader mit Batching: Requests in einer Tick sammeln, dann batch-fetch (z.B. single SQL query für many IDs) statt individual Queries",
+      "REST ist besser als GraphQL"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "DataLoader: Requests für User 1, 2, 3 keine 3 separate Queries, sondern eine: WHERE id IN (1,2,3). Batching verhindert N+1, Caching verhindert Duplikate in single request."
+  },
+  {
+    "id": 220,
+    "kategorie": "Datenbanken",
+    "level": 3,
+    "frage": "Du designst eine read-heavy App mit >10k QPS. Welche Replication + Sharding Strategie ist skalierbar?",
+    "antworten": [
+      "Eine Database Machine",
+      "Write-Master + Read-Replicas für Read-Scaling, Sharding nach Business-Key mit consistent hashing, Monitoring Replication-Lag, smart Query-Routing",
+      "Datenbanken sind zu slow, NoSQL ist die Lösung"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Scalable DB Architecture: Master für Writes (bottleneck reduzieren via batching), Read-Replicas für Reads (parallel), Sharding horizontal scale (aber kompliziert), Consistent-Hashing für min Rebalancing bei shard-Änderungen."
+  },
+  {
+    "id": 221,
+    "kategorie": "Datenbanken",
+    "level": 3,
+    "frage": "Welche Strategie für Distributed Transactions mit Eventual Consistency ist praktikabel?",
+    "antworten": [
+      "Strong Consistency überall",
+      "Event Sourcing + CQRS: Events als Single Source of Truth, asynchronous projections in read models, eventual consistency durch message bus",
+      "Ignoriere Konsistenz-Anforderungen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Event Sourcing: jeden state change als Event speichern (immutable), Events sind Single Source of Truth. Microservices subscriben und bauen eigene read models. Konsistenz ist eventual, nicht immediate."
+  },
+  {
+    "id": 222,
+    "kategorie": "Datenbanken",
+    "level": 3,
+    "frage": "Wie optimiert man Queries auf einer Tabelle mit 100M+ Rows ohne table scans?",
+    "antworten": [
+      "Einfach Queries schreiben, Index wird automatisch genutzt",
+      "Query-Analyzer (EXPLAIN PLAN) + Composite Indexes mit Column-Ordering, Partial Indexes für WHERE-Conditions, Query Rewrite (z.B. avoid SELECT *)",
+      "Größere Server kaufen"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Professionelle Query-Optimization: EXPLAIN PLAN um Scan/Seek zu unterscheiden, Composite Indexes (Kolumnen-Order wichtig für Range Queries), Partial Indexes (nur Row mit status=active), SELECT nur nötige Spalten."
+  },
+  {
+    "id": 223,
+    "kategorie": "Datenbanken",
+    "level": 3,
+    "frage": "Welche Strategie für Backup-Recovery ist RPO < 5 min und RTO < 1 hour?",
+    "antworten": [
+      "Tägliche Backups sind genug",
+      "Continuous Binary Logging mit remote streaming + Point-in-Time Recovery + Test Restores regelmäßig, geografisch redundante Backups",
+      "Backups sind Kosten-verschwendung"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "RPO (Recovery Point Objective): max 5 min data loss -> kontinuierliche Binary Logs (nicht täglich). RTO 1 hour: schnelles Restore braucht redundante Backups und regelmäßige Test-Restores (broken Backups sind nutzlos)."
+  },
+  {
+    "id": 224,
+    "kategorie": "Coding Glossar",
+    "level": 3,
+    "frage": "Welche Architektur für Zero-Trust Networking und API-Security ist professionell?",
+    "antworten": [
+      "Firewall + Basic Authentication",
+      "Mutual TLS (mTLS) zwischen Services, JWT mit short-lived tokens + refresh, Request-Signing, API Gateway mit rate-limiting + WAF, keine implicit trust",
+      "Security through obscurity"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Zero-Trust: mTLS erzwingt gegenseitige Authentifizierung, JWT mit short-lifetime (nicht forever), Request-Signing (Authentizität), API Gateway als Single Point für Policies, jede Request wird validiert (keine 'trusted' internals)."
+  },
+  {
+    "id": 225,
+    "kategorie": "Coding Glossar",
+    "level": 3,
+    "frage": "Dein Secret-Management hat Secrets in GitOps. Welche Production-ready Lösung ist encrypted?",
+    "antworten": [
+      "Secrets im plaintext in Git speichern",
+      "External Secret-Vault (Vault/AWS Secrets Manager) mit RBAC, Encryption at Rest/Transit, Audit logging, Secret rotation automation",
+      "Environment-Variablen sind sicher genug"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Professional Secret-Management: Vault für Centralized Storage (encrypted, audit logged), nicht Git. RBAC (wer kann was lesen), Secret-Rotation automation, Kubernetes Native Integration via external-secrets Operator."
+  },
+  {
+    "id": 226,
+    "kategorie": "Coding Glossar",
+    "level": 3,
+    "frage": "Welche Observability-Stack ist für Production Kubernetes robust?",
+    "antworten": [
+      "Logs in /var/log ist genug",
+      "Prometheus metrics + Jaeger tracing + Loki für logs (Observability: metrics/logs/traces) + AlertManager für incidents + Dashboard (Grafana)",
+      "Alles in einem Tool"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Production Observability: Prometheus (scrapes metrics), Jaeger (distributed tracing), Loki (log aggregation), zusammen = 3 Pillars. AlertManager triggert Alerts, Grafana visualisiert. Debugging Production-Issues braucht alle drei."
+  },
+  {
+    "id": 227,
+    "kategorie": "KI",
+    "level": 3,
+    "frage": "Welche Architektur für LLM-basierte Production-Services ist robust?",
+    "antworten": [
+      "LLM raw API nutzen ohne Abstraktion",
+      "Prompt Engineering + Retrieval-Augmented Generation (RAG) mit eigene Vector-DB, Structured Output (z.B. JSON modes oder function calling), guardrails für Halluzinationen, Fallback-Logic bei Fehler",
+      "LLMs sind zu unreliabel für Production"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Production LLM Services: RAG (eigene Daten + LLM, nicht halluziniert), Structured Output (nicht wild text), Guardrails (input validation, output validation), Fallbacks (wenn LLM strange responses gibt)."
+  },
+  {
+    "id": 228,
+    "kategorie": "KI",
+    "level": 3,
+    "frage": "Wie mitigiert man Prompt Injection attacks in einer öffentlichen LLM-API?",
+    "antworten": [
+      "Nutzer dürfen schreiben was sie wollen",
+      "Separate System-Prompts in non-breakable Zones, Input/Output Validation Layer, Regular Expression Filtering für Injection-Patterns, Monitoring für suspicious Prompts",
+      "Prompt Injection ist nicht möglich"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Prompt Injection Defense: System Prompt in special tokens (nicht echte Text), Input-Layer filtert verdächtige Patterns (z.B. 'ignore previous instructions'), Output-Validator prüft ob die KI unerwünschte Verhalten gezeigt hat, Logging suspicious requests."
+  },
+  {
+    "id": 229,
+    "kategorie": "KI",
+    "level": 3,
+    "frage": "Welche Evaluations-Strategie für fine-tuned LLMs verhindert Performance-Regression?",
+    "antworten": [
+      "Fine-tuning + deployment, keine Tests nötig",
+      "Benchmark-Suite mit relevanten Test-Cases, Automated Evaluation gegen Baseline (BLEU/ROUGE/Custom Metrics), Human Evaluation auf Sample, A/B Testing in Production mit traffic-split",
+      "Nur manuelles Testing mit wenigen Examples"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Fine-tuning Evaluation: Benchmarks vor/nach, Automated Metrics (BLEU für NLG), Human Eval (ist output wirklich besser?), A/B Test in Production (real user feedback), keine blind fine-tuning deployment."
+  },
+  {
+    "id": 230,
+    "kategorie": "Code",
+    "level": 3,
+    "frage": "Welche Strategie für Package-Security und Supply-Chain Attacks ist robust?",
+    "antworten": [
+      "Einfach beliebige NPM-Packages installieren",
+      "Dependency Scanning (Snyk/npm audit), Software Composition Analysis (SCA) im CI, Pinned versions + lock files, provenance verification (sigstore), malware detection tools",
+      "npm packages sind vertrauenswürdig"
+    ],
+    "korrekteAntwortIndex": 1,
+    "erklaerung": "Supply-Chain Security: npm audit / Snyk für Vulnerabilities, SCA um Lizenzen zu checken, lock-files um deterministische Builds zu sichern, Sigstore für Package-Authentizität, Malware-Scanner in CI/CD."
+  }
+]
