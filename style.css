@@ -367,6 +367,10 @@ a:hover { color: var(--accent); }
   height: 26px;
   border-radius: 5px;
 }
+.fav-emoji {
+  font-size: 1.2rem;
+  line-height: 1;
+}
 .fav-item .fav-fallback {
   width: 26px;
   height: 26px;
@@ -827,7 +831,20 @@ a:hover { color: var(--accent); }
   border-radius: 6px;
   font-size: 0.8rem;
 }
+.fav-edit-icon { font-size: 1rem; flex-shrink: 0; line-height: 1; }
+.fav-edit-item strong { flex-shrink: 0; }
 .fav-edit-item span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-muted); font-size: 0.7rem; }
+.fav-emoji-btn {
+  background: none;
+  border: none;
+  font-size: 0.75rem;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.fav-emoji-btn:hover { background: var(--bg-card); }
 .fav-del-btn {
   background: none;
   border: none;
