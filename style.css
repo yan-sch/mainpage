@@ -897,15 +897,15 @@ a:hover { color: var(--accent); }
   html, body { overflow: auto; height: auto; }
   #grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 58px auto auto;
+    grid-template-rows: auto auto 58px auto auto;
     height: auto;
   }
-  #left-col   { grid-column: 1; grid-row: 1; height: auto; }
-  #news-1     { grid-column: 1; grid-row: 2; }
-  #news-2     { grid-column: 2; grid-row: 2; }
+  #left-col   { grid-column: 1/-1; grid-row: 1; height: auto; }
+  #news-1     { grid-column: 1;    grid-row: 2; }
+  #news-2     { grid-column: 2;    grid-row: 2; }
   #favorites  { grid-column: 1/-1; grid-row: 3; }
   #quiz       { grid-column: 1/-1; grid-row: 4; min-height: 400px; }
-  #bookmarks  { grid-column: 1/-1; grid-row: 5; }
-  .news-widget { height: auto; }
+  #right-col  { grid-column: 1/-1; grid-row: 5; height: auto; }
+  .news-widget { height: auto; min-height: 195px; }
   #weather { height: auto; }
 }
