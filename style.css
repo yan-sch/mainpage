@@ -894,6 +894,19 @@ a:hover { color: var(--accent); }
   }
 }
 @media (max-width: 900px) {
+  #header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 14px 6px;
+  }
+  #greeting { margin-left: auto; }
+  #search-wrapper {
+    order: 3;
+    flex: 1 1 100%;
+    max-width: none;
+    padding-bottom: 4px;
+  }
+
   html, body { overflow: auto; height: auto; }
   #grid {
     grid-template-columns: 1fr 1fr;
